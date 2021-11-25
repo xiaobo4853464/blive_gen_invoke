@@ -1,0 +1,19 @@
+"""
+Auto gen. Do not change.
+Any question please connect @好人索尔
+"""
+
+from {{data.path}} import {{data.cls_name}}
+
+
+class Test{{data.cls_name}}(object):
+    @classmethod
+    def setup_class(cls):
+        cls.mygrpc = {{data.cls_name}}()
+
+    {% for i in data.interfaces %}
+    def test_{{i.name}}(self):
+        r = {{i.call}}
+        print(r)
+
+    {% endfor %}

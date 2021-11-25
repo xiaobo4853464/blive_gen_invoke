@@ -1,0 +1,843 @@
+{
+    "http": {
+        "web-ucenter": [
+            "/Users/boxiao/go-live/app/interface/web-ucenter/api/http/v1/dmreport.dMReport.md",
+            "/Users/boxiao/go-live/app/interface/web-ucenter/api/http/v1/guard.guard.md",
+            "/Users/boxiao/go-live/app/interface/web-ucenter/api/http/v1/xfetter.xfetter.md",
+            "/Users/boxiao/go-live/app/interface/web-ucenter/api/http/v1/title.user_title.md",
+            "/Users/boxiao/go-live/app/interface/web-ucenter/api/http/v1/sign.sign.md",
+            "/Users/boxiao/go-live/app/interface/web-ucenter/api/http/v1/achievement.achievement.md",
+            "/Users/boxiao/go-live/app/interface/web-ucenter/api/http/v1/labs.labs.md",
+            "/Users/boxiao/go-live/app/interface/web-ucenter/api/http/v1/capsule.capsule.md",
+            "/Users/boxiao/go-live/app/interface/web-ucenter/api/http/v1/filter.filter.md",
+            "/Users/boxiao/go-live/app/interface/web-ucenter/api/http/v1/room.room.md",
+            "/Users/boxiao/go-live/app/interface/web-ucenter/api/http/v1/roomAdmin.roomAdmin.md",
+            "/Users/boxiao/go-live/app/interface/web-ucenter/api/http/v1/cpmUnion.union.md",
+            "/Users/boxiao/go-live/app/interface/web-ucenter/api/http/v1/emoticon.emoticon.md",
+            "/Users/boxiao/go-live/app/interface/web-ucenter/api/http/v1/xbanned.dMReport.md",
+            "/Users/boxiao/go-live/app/interface/web-ucenter/api/http/v1/banned.banned.md",
+            "/Users/boxiao/go-live/app/interface/web-ucenter/api/http/v1/anchorTask.anchorTask.md",
+            "/Users/boxiao/go-live/app/interface/web-ucenter/api/http/v1/spread.spread.md",
+            "/Users/boxiao/go-live/app/interface/web-ucenter/api/http/v1/activity.activity.md",
+            "/Users/boxiao/go-live/app/interface/web-ucenter/api/http/v1/xbanned.xBanned.md",
+            "/Users/boxiao/go-live/app/interface/web-ucenter/api/http/v1/history.history.md",
+            "/Users/boxiao/go-live/app/interface/web-ucenter/api/http/v1/question.question.md",
+            "/Users/boxiao/go-live/app/interface/web-ucenter/api/http/user.user.md",
+            "/Users/boxiao/go-live/app/interface/web-ucenter/api/http/api.md",
+            "/Users/boxiao/go-live/app/interface/web-ucenter/api/http/v2/LiveAnchorSan.liveAnchorSan.md",
+            "/Users/boxiao/go-live/app/interface/web-ucenter/api/http/v2/liveCalendarAnchor.anchor.md",
+            "/Users/boxiao/go-live/app/interface/web-ucenter/api/http/v2/emoticon.emoticon.md",
+            "/Users/boxiao/go-live/app/interface/web-ucenter/api/http/v2/liveCalendarAnchor.liveCalendarUser.md",
+            "/Users/boxiao/go-live/app/interface/web-ucenter/api/http/v2/liveCalendar.calendar.md",
+            "/Users/boxiao/go-live/app/interface/web-ucenter/api/http/v2/liveCalendarAnchor.liveCalendarAnchor.md",
+            "/Users/boxiao/go-live/app/interface/web-ucenter/api/http/v2/anchorReward.anchor.md"
+        ],
+        "activity-interface": [
+            "/Users/boxiao/go-live/app/interface/activity-interface/api/http/v1/widgetBanner.widgetBannerService.md",
+            "/Users/boxiao/go-live/app/interface/activity-interface/api/http/v1/lanturn2021.lanturn2021.md",
+            "/Users/boxiao/go-live/app/interface/activity-interface/api/http/v1/cfs2020.cfs2020.md",
+            "/Users/boxiao/go-live/app/interface/activity-interface/api/http/v1/activityContent.task.md",
+            "/Users/boxiao/go-live/app/interface/activity-interface/api/http/v1/activityContent.activityContent.md",
+            "/Users/boxiao/go-live/app/interface/activity-interface/api/http/v1/subscribe.subscribe.md",
+            "/Users/boxiao/go-live/app/interface/activity-interface/api/http/v1/august.august.md",
+            "/Users/boxiao/go-live/app/interface/activity-interface/api/http/v1/s10.s10.md",
+            "/Users/boxiao/go-live/app/interface/activity-interface/api/http/v1/topic.topic.md",
+            "/Users/boxiao/go-live/app/interface/activity-interface/api/http/v1/spring_festival2021.springFestival2021.md",
+            "/Users/boxiao/go-live/app/interface/activity-interface/api/http/v1/winterVacation2021.winterVacation.md",
+            "/Users/boxiao/go-live/app/interface/activity-interface/api/http/v1/kpl.kPL.md",
+            "/Users/boxiao/go-live/app/interface/activity-interface/api/http/v1/september.september.md",
+            "/Users/boxiao/go-live/app/interface/activity-interface/api/http/v1/task.task.md",
+            "/Users/boxiao/go-live/app/interface/activity-interface/api/http/v1/activity_task.activityTask.md",
+            "/Users/boxiao/go-live/app/interface/activity-interface/api/http/v1/anchor_task_center.anchorTaskCenter.md",
+            "/Users/boxiao/go-live/app/interface/activity-interface/api/http/v1/battleRoyale.battleRoyale.md",
+            "/Users/boxiao/go-live/app/interface/activity-interface/api/http/v1/activity.activity.md",
+            "/Users/boxiao/go-live/app/interface/activity-interface/api/http/v1/bls2020.bls2020.md",
+            "/Users/boxiao/go-live/app/interface/activity-interface/api/http/v1/match.match.md",
+            "/Users/boxiao/go-live/app/interface/activity-interface/api/http/v1/activity_pendant.activityPendant.md",
+            "/Users/boxiao/go-live/app/interface/activity-interface/api/http/v1/message_wall.messageWall.md",
+            "/Users/boxiao/go-live/app/interface/activity-interface/api/http/v2/april_super_star.aprilSuperStar.md",
+            "/Users/boxiao/go-live/app/interface/activity-interface/api/http/v2/account_bind.accountBind.md",
+            "/Users/boxiao/go-live/app/interface/activity-interface/api/http/v2/2021_five_one.fiveOneAct.md",
+            "/Users/boxiao/go-live/app/interface/activity-interface/api/http/v2/april_play_with.aprilPlayWith.md",
+            "/Users/boxiao/go-live/app/interface/activity-interface/api/http/v2/generalAct.generalAct.md",
+            "/Users/boxiao/go-live/app/interface/activity-interface/api/http/v2/spring2021.spring.md",
+            "/Users/boxiao/go-live/app/interface/activity-interface/api/http/v2/user_task.userTaskNew.md",
+            "/Users/boxiao/go-live/app/interface/activity-interface/api/http/v2/collect_card.collectCard.md",
+            "/Users/boxiao/go-live/app/interface/activity-interface/api/http/v2/live_subscribe.liveSubscribe.md",
+            "/Users/boxiao/go-live/app/interface/activity-interface/api/http/v2/video_pk_s2.videoPkS2.md",
+            "/Users/boxiao/go-live/app/interface/activity-interface/api/http/v2/seven_activity.sevenActivity.md",
+            "/Users/boxiao/go-live/app/interface/activity-interface/api/http/v2/anchor_task_center.anchorTaskCenter.md",
+            "/Users/boxiao/go-live/app/interface/activity-interface/api/http/v2/specAct.specAct.md",
+            "/Users/boxiao/go-live/app/interface/activity-interface/api/http/v2/summer2021.summer2021.md",
+            "/Users/boxiao/go-live/app/interface/activity-interface/api/http/v2/genshin_202107.genshin202107.md",
+            "/Users/boxiao/go-live/app/interface/activity-interface/api/http/v2/march_blind_gift.march_blind_gift.md",
+            "/Users/boxiao/go-live/app/interface/activity-interface/api/http/v3/task_interface.taskInterface.md"
+        ],
+        "open-platform": [
+            "/Users/boxiao/go-live/app/interface/open-platform/api/http/game.game.md",
+            "/Users/boxiao/go-live/app/interface/open-platform/api/http/common.common.md",
+            "/Users/boxiao/go-live/app/interface/open-platform/api/http/bind.bind.md",
+            "/Users/boxiao/go-live/app/interface/open-platform/api/http/mcn-user.mcnUser.md"
+        ],
+        "quiz-main": [
+            "/Users/boxiao/go-live/app/interface/quiz-main/api/http/lottery.lottery.md",
+            "/Users/boxiao/go-live/app/interface/quiz-main/api/http/quiz.quiz.md"
+        ],
+        "web-room": [
+            "/Users/boxiao/go-live/app/interface/web-room/api/http/v1/fansmedal.fansMedal.md",
+            "/Users/boxiao/go-live/app/interface/web-room/api/http/v1/room.index.md",
+            "/Users/boxiao/go-live/app/interface/web-room/api/http/v1/wishing-bottle.wishingBottle.md",
+            "/Users/boxiao/go-live/app/interface/web-room/api/http/v1/banner.banner.md",
+            "/Users/boxiao/go-live/app/interface/web-room/api/http/v1/record.record.md",
+            "/Users/boxiao/go-live/app/interface/web-room/api/http/v1/videoConnection.videoConnection.md",
+            "/Users/boxiao/go-live/app/interface/web-room/api/http/v1/dm.dM.md",
+            "/Users/boxiao/go-live/app/interface/web-room/api/http/v1/captcha.captcha.md",
+            "/Users/boxiao/go-live/app/interface/web-room/api/http/v1/playurl.playUrl.md",
+            "/Users/boxiao/go-live/app/interface/web-room/api/http/v1/roomAdmin.roomAdmin.md",
+            "/Users/boxiao/go-live/app/interface/web-room/api/http/v1/studio.studio.md",
+            "/Users/boxiao/go-live/app/interface/web-room/api/http/v1/gift.gift.md",
+            "/Users/boxiao/go-live/app/interface/web-room/api/http/v1/titleRenewCard.userRenewCard.md",
+            "/Users/boxiao/go-live/app/interface/web-room/api/http/v1/giftPanel.giftPanel.md",
+            "/Users/boxiao/go-live/app/interface/web-room/api/http/v1/banned.banned.md",
+            "/Users/boxiao/go-live/app/interface/web-room/api/http/v1/titleRenewCard.propMailbox.md",
+            "/Users/boxiao/go-live/app/interface/web-room/api/http/v1/glory.glory.md",
+            "/Users/boxiao/go-live/app/interface/web-room/api/http/v1/stickers.stickers.md",
+            "/Users/boxiao/go-live/app/interface/web-room/api/http/api.md",
+            "/Users/boxiao/go-live/app/interface/web-room/api/http/v2/index.index.md"
+        ],
+        "web-interface": [
+            "/Users/boxiao/go-live/app/interface/web-interface/api/http/v1/web_conf.config.md",
+            "/Users/boxiao/go-live/app/interface/web-interface/api/http/v1/esport.esport.md",
+            "/Users/boxiao/go-live/app/interface/web-interface/api/http/v1/preview.preview.md",
+            "/Users/boxiao/go-live/app/interface/web-interface/api/http/v1/index.index.md",
+            "/Users/boxiao/go-live/app/interface/web-interface/api/http/v1/second.second.md"
+        ],
+        "app-ucenter": [
+            "/Users/boxiao/go-live/app/interface/app-ucenter/api/http/v1/dmreport.dMReport.md",
+            "/Users/boxiao/go-live/app/interface/app-ucenter/api/http/v1/user.user.md",
+            "/Users/boxiao/go-live/app/interface/app-ucenter/api/http/v1/guard.guard.md",
+            "/Users/boxiao/go-live/app/interface/app-ucenter/api/http/v1/redAlarm.redAlarm.md",
+            "/Users/boxiao/go-live/app/interface/app-ucenter/api/http/v1/title.user_title.md",
+            "/Users/boxiao/go-live/app/interface/app-ucenter/api/http/v1/sign.sign.md",
+            "/Users/boxiao/go-live/app/interface/app-ucenter/api/http/v1/room.room.md",
+            "/Users/boxiao/go-live/app/interface/app-ucenter/api/http/v1/roomAdmin.roomAdmin.md",
+            "/Users/boxiao/go-live/app/interface/app-ucenter/api/http/v1/topic.topic.md",
+            "/Users/boxiao/go-live/app/interface/app-ucenter/api/http/v1/panel.livePanel.md",
+            "/Users/boxiao/go-live/app/interface/app-ucenter/api/http/v1/lpl.lpl.md",
+            "/Users/boxiao/go-live/app/interface/app-ucenter/api/http/v1/banned.banned.md",
+            "/Users/boxiao/go-live/app/interface/app-ucenter/api/http/v1/liveCenter.liveCenter.md",
+            "/Users/boxiao/go-live/app/interface/app-ucenter/api/http/v1/fansmedal/room.fansMedal.md",
+            "/Users/boxiao/go-live/app/interface/app-ucenter/api/http/v1/spreadRoom.spreadRoom.md",
+            "/Users/boxiao/go-live/app/interface/app-ucenter/api/http/v1/activity.activity.md",
+            "/Users/boxiao/go-live/app/interface/app-ucenter/api/http/v1/xbanned.xBanned.md",
+            "/Users/boxiao/go-live/app/interface/app-ucenter/api/http/v1/internalRoom.internalRoom.md",
+            "/Users/boxiao/go-live/app/interface/app-ucenter/api/http/v1/history.history.md",
+            "/Users/boxiao/go-live/app/interface/app-ucenter/api/http/v1/bind/bind.bind.md",
+            "/Users/boxiao/go-live/app/interface/app-ucenter/api/http/v1/conf.conf.md",
+            "/Users/boxiao/go-live/app/interface/app-ucenter/api/http/v1/mainRelation.relation.md",
+            "/Users/boxiao/go-live/app/interface/app-ucenter/api/http/api.md",
+            "/Users/boxiao/go-live/app/interface/app-ucenter/api/http/v2/card/card.card.md",
+            "/Users/boxiao/go-live/app/interface/app-ucenter/api/http/v2/title/title.title.md",
+            "/Users/boxiao/go-live/app/interface/app-ucenter/api/http/v2/bind/bind.bind.md",
+            "/Users/boxiao/go-live/app/interface/app-ucenter/api/http/v2/glory/glory.glory.md"
+        ],
+        "general-interface": [
+            "/Users/boxiao/go-live/app/interface/general-interface/api/http/v1/physical_award.physicalAwardService.md",
+            "/Users/boxiao/go-live/app/interface/general-interface/api/http/v1/rank.rank.md",
+            "/Users/boxiao/go-live/app/interface/general-interface/api/http/v1/bls2019.userTask.md",
+            "/Users/boxiao/go-live/app/interface/general-interface/api/http/v1/lottery_order.lotteryOrder.md",
+            "/Users/boxiao/go-live/app/interface/general-interface/api/http/v1/guard.guard.md",
+            "/Users/boxiao/go-live/app/interface/general-interface/api/http/v1/lottery.lottery.md",
+            "/Users/boxiao/go-live/app/interface/general-interface/api/http/v1/interactiveGamePk.interactiveGamePk.md",
+            "/Users/boxiao/go-live/app/interface/general-interface/api/http/v1/fullScEffect.fullScSpecialEffect.md",
+            "/Users/boxiao/go-live/app/interface/general-interface/api/http/v1/medal.medal.md",
+            "/Users/boxiao/go-live/app/interface/general-interface/api/http/v1/birthday_party.birthday.md",
+            "/Users/boxiao/go-live/app/interface/general-interface/api/http/v1/bnj.bnj2020.md",
+            "/Users/boxiao/go-live/app/interface/general-interface/api/http/v1/lpl_activity.lplActivity.md",
+            "/Users/boxiao/go-live/app/interface/general-interface/api/http/v1/reward.reward.md",
+            "/Users/boxiao/go-live/app/interface/general-interface/api/http/v1/lottery_order.lottery.md",
+            "/Users/boxiao/go-live/app/interface/general-interface/api/http/v1/task.task.md",
+            "/Users/boxiao/go-live/app/interface/general-interface/api/http/v1/live_boss.liveBossPlay.md",
+            "/Users/boxiao/go-live/app/interface/general-interface/api/http/v1/template.template.md",
+            "/Users/boxiao/go-live/app/interface/general-interface/api/http/v1/lpl.lplTask.md",
+            "/Users/boxiao/go-live/app/interface/general-interface/api/http/v1/battle.battle.md",
+            "/Users/boxiao/go-live/app/interface/general-interface/api/http/v1/brand_room.brandRoom.md",
+            "/Users/boxiao/go-live/app/interface/general-interface/api/http/v1/short_url.shortUrl.md",
+            "/Users/boxiao/go-live/app/interface/general-interface/api/http/v2/rankBattle.rankBattle.md",
+            "/Users/boxiao/go-live/app/interface/general-interface/api/http/v2/generalActivityRank.generalActivityRank.md",
+            "/Users/boxiao/go-live/app/interface/general-interface/api/http/v2/actCenter.actCenter.md",
+            "/Users/boxiao/go-live/app/interface/general-interface/api/http/v2/userItem.userItem.md"
+        ],
+        "app-blink": [
+            "/Users/boxiao/go-live/app/interface/app-blink/api/http/v1/appBlink.activity.md",
+            "/Users/boxiao/go-live/app/interface/app-blink/api/http/v1/rank.rank.md",
+            "/Users/boxiao/go-live/app/interface/app-blink/api/http/v1/room.index.md",
+            "/Users/boxiao/go-live/app/interface/app-blink/api/http/v1/appBlink.giftPanel.md",
+            "/Users/boxiao/go-live/app/interface/app-blink/api/http/v1/preLive.anchorCenter.md",
+            "/Users/boxiao/go-live/app/interface/app-blink/api/http/v1/streaming_gateway.streaming.md",
+            "/Users/boxiao/go-live/app/interface/app-blink/api/http/v1/record.record.md",
+            "/Users/boxiao/go-live/app/interface/app-blink/api/http/v1/academy.academy.md",
+            "/Users/boxiao/go-live/app/interface/app-blink/api/http/v1/music.music.md",
+            "/Users/boxiao/go-live/app/interface/app-blink/api/http/v1/virtual.virtual.md",
+            "/Users/boxiao/go-live/app/interface/app-blink/api/http/v1/appBlink.report.md",
+            "/Users/boxiao/go-live/app/interface/app-blink/api/http/v1/appBlink.banner.md",
+            "/Users/boxiao/go-live/app/interface/app-blink/api/http/v1/appBlink.topic.md",
+            "/Users/boxiao/go-live/app/interface/app-blink/api/http/v1/dataCenter.session.md",
+            "/Users/boxiao/go-live/app/interface/app-blink/api/http/v1/appBlink.splash.md",
+            "/Users/boxiao/go-live/app/interface/app-blink/api/http/v1/live.live.md",
+            "/Users/boxiao/go-live/app/interface/app-blink/api/http/v1/appBlink.messageCenter.md",
+            "/Users/boxiao/go-live/app/interface/app-blink/api/http/v1/dataCenter.date.md",
+            "/Users/boxiao/go-live/app/interface/app-blink/api/http/v1/dataCenter.switch.md",
+            "/Users/boxiao/go-live/app/interface/app-blink/api/http/v1/pk.pk.md",
+            "/Users/boxiao/go-live/app/interface/app-blink/api/http/v1/appBlink.room.md",
+            "/Users/boxiao/go-live/app/interface/app-blink/api/http/v1/popConf.popConf.md",
+            "/Users/boxiao/go-live/app/interface/app-blink/api/http/v1/preLive.preLive.md",
+            "/Users/boxiao/go-live/app/interface/app-blink/api/http/v1/clarity.clarity.md",
+            "/Users/boxiao/go-live/app/interface/app-blink/api/http/v1/dataCenter.close.md",
+            "/Users/boxiao/go-live/app/interface/app-blink/api/http/v1/mobileTypePost.mobileTypePost.md",
+            "/Users/boxiao/go-live/app/interface/app-blink/api/http/v1/tcCallBack.callback.md",
+            "/Users/boxiao/go-live/app/interface/app-blink/api/http/v1/nps.nps.md",
+            "/Users/boxiao/go-live/app/interface/app-blink/api/http/v1/appBlink.vtuber.md",
+            "/Users/boxiao/go-live/app/interface/app-blink/api/http/v1/stickers.stickers.md",
+            "/Users/boxiao/go-live/app/interface/app-blink/api/http/v1/vote.voteIndex.md",
+            "/Users/boxiao/go-live/app/interface/app-blink/api/http/v1/appBlink.entrance.md",
+            "/Users/boxiao/go-live/app/interface/app-blink/api/http/v1/appBlink.getActivity.md",
+            "/Users/boxiao/go-live/app/interface/app-blink/api/http/v1/material.material.md",
+            "/Users/boxiao/go-live/app/interface/app-blink/api/http/api.md"
+        ],
+        "app-room": [
+            "/Users/boxiao/go-live/app/interface/app-room/api/http/v1/card.card.md",
+            "/Users/boxiao/go-live/app/interface/app-room/api/http/v1/fansmedal.fansMedal.md",
+            "/Users/boxiao/go-live/app/interface/app-room/api/http/v1/roomNotice.roomNotice.md",
+            "/Users/boxiao/go-live/app/interface/app-room/api/http/v1/room.index.md",
+            "/Users/boxiao/go-live/app/interface/app-room/api/http/v1/room.card.md",
+            "/Users/boxiao/go-live/app/interface/app-room/api/http/v1/wishing-bottle.wishingBottle.md",
+            "/Users/boxiao/go-live/app/interface/app-room/api/http/v1/guardTab.guardTab.md",
+            "/Users/boxiao/go-live/app/interface/app-room/api/http/v1/play.roomPlay.md",
+            "/Users/boxiao/go-live/app/interface/app-room/api/http/v1/interactivepanel.livePanel.md",
+            "/Users/boxiao/go-live/app/interface/app-room/api/http/v1/record.record.md",
+            "/Users/boxiao/go-live/app/interface/app-room/api/http/v1/videoConnection.videoConnection.md",
+            "/Users/boxiao/go-live/app/interface/app-room/api/http/v1/dm.dM.md",
+            "/Users/boxiao/go-live/app/interface/app-room/api/http/v1/masterInfo.masterInfo.md",
+            "/Users/boxiao/go-live/app/interface/app-room/api/http/v1/playurl.playUrl.md",
+            "/Users/boxiao/go-live/app/interface/app-room/api/http/v1/studio.studio.md",
+            "/Users/boxiao/go-live/app/interface/app-room/api/http/v1/gift.gift.md",
+            "/Users/boxiao/go-live/app/interface/app-room/api/http/v1/titleRenewCard.userRenewCard.md",
+            "/Users/boxiao/go-live/app/interface/app-room/api/http/v1/giftPanel.giftPanel.md",
+            "/Users/boxiao/go-live/app/interface/app-room/api/http/v1/banned.banned.md",
+            "/Users/boxiao/go-live/app/interface/app-room/api/http/v1/titleRenewCard.propMailbox.md",
+            "/Users/boxiao/go-live/app/interface/app-room/api/http/v1/up.up.md",
+            "/Users/boxiao/go-live/app/interface/app-room/api/http/v1/stickers.stickers.md",
+            "/Users/boxiao/go-live/app/interface/app-room/api/http/v1/room.panel.md",
+            "/Users/boxiao/go-live/app/interface/app-room/api/http/api.md",
+            "/Users/boxiao/go-live/app/interface/app-room/api/http/v2/guardTab.guardTab.md",
+            "/Users/boxiao/go-live/app/interface/app-room/api/http/v2/panel.livePanel.md",
+            "/Users/boxiao/go-live/app/interface/app-room/api/http/v2/index.index.md"
+        ],
+        "open-interface": [
+            "/Users/boxiao/go-live/app/interface/open-interface/api/http/v1/subscribe.subscribe.md",
+            "/Users/boxiao/go-live/app/interface/open-interface/api/http/v1/dm.dm.md",
+            "/Users/boxiao/go-live/app/interface/open-interface/api/http/v1/resource.resource.md",
+            "/Users/boxiao/go-live/app/interface/open-interface/api/http/v1/tracker.tracker.md",
+            "/Users/boxiao/go-live/app/interface/open-interface/api/http/v1/verifycode.verifycode.md",
+            "/Users/boxiao/go-live/app/interface/open-interface/api/http/v1/web_log_agent.webLogAgent.md",
+            "/Users/boxiao/go-live/app/interface/open-interface/api/http/v1/wx.wx.md",
+            "/Users/boxiao/go-live/app/interface/open-interface/api/http/v1/rtc.rtc.md"
+        ],
+        "data-interface": [
+            "/Users/boxiao/go-live/app/interface/data-interface/api/http/v1/room.room.md",
+            "/Users/boxiao/go-live/app/interface/data-interface/api/http/v1/nowatch.report.md",
+            "/Users/boxiao/go-live/app/interface/data-interface/api/http/v1/index.index.md",
+            "/Users/boxiao/go-live/app/interface/data-interface/api/http/v1/watch.heartbeat.md"
+        ],
+        "risk-interface": [
+            "/Users/boxiao/go-live/app/interface/risk-interface/api/http/v1/api.heartBeat.md"
+        ],
+        "revenue": [
+            "/Users/boxiao/go-live/app/interface/revenue/api/http/v1/agent_account.agentAccount.md",
+            "/Users/boxiao/go-live/app/interface/revenue/api/http/v1/wechat.wechat.md",
+            "/Users/boxiao/go-live/app/interface/revenue/api/http/v1/general_product.generalProduct.md",
+            "/Users/boxiao/go-live/app/interface/revenue/api/http/v1/gift_stream.giftStream.md",
+            "/Users/boxiao/go-live/app/interface/revenue/api/http/v1/general.general.md",
+            "/Users/boxiao/go-live/app/interface/revenue/api/http/v1/gift.gift.md",
+            "/Users/boxiao/go-live/app/interface/revenue/api/http/v1/lpl.lpl.md",
+            "/Users/boxiao/go-live/app/interface/revenue/api/http/v1/anchor_account.anchorAccount.md",
+            "/Users/boxiao/go-live/app/interface/revenue/api/http/v1/apcenter.apcenter.md",
+            "/Users/boxiao/go-live/app/interface/revenue/api/http/v1/order.order.md",
+            "/Users/boxiao/go-live/app/interface/revenue/api/http/v1/payLive.payLive.md",
+            "/Users/boxiao/go-live/app/interface/revenue/api/http/v1/account.account.md",
+            "/Users/boxiao/go-live/app/interface/revenue/api/http/v1/contract.contract.md",
+            "/Users/boxiao/go-live/app/interface/revenue/api/http/v1/wallet.wallet.md",
+            "/Users/boxiao/go-live/app/interface/revenue/api/http/v2/gift_stream.giftStream.md",
+            "/Users/boxiao/go-live/app/interface/revenue/api/http/v2/general.general.md",
+            "/Users/boxiao/go-live/app/interface/revenue/api/http/v2/gift.gift.md",
+            "/Users/boxiao/go-live/app/interface/revenue/api/http/v2/order.order.md"
+        ],
+        "app-interface": [
+            "/Users/boxiao/go-live/app/interface/app-interface/api/http/v1/scheduled.scheduled.md",
+            "/Users/boxiao/go-live/app/interface/app-interface/api/http/v1/app_conf.config.md",
+            "/Users/boxiao/go-live/app/interface/app-interface/api/http/v1/index.index.md",
+            "/Users/boxiao/go-live/app/interface/app-interface/api/http/v1/index.md",
+            "/Users/boxiao/go-live/app/interface/app-interface/api/http/v1/relation.relation.md",
+            "/Users/boxiao/go-live/app/interface/app-interface/api/http/api.md",
+            "/Users/boxiao/go-live/app/interface/app-interface/api/http/v2/adx.adx.md",
+            "/Users/boxiao/go-live/app/interface/app-interface/api/http/v2/index.index.md",
+            "/Users/boxiao/go-live/app/interface/app-interface/api/http/v2/second.second.md",
+            "/Users/boxiao/go-live/app/interface/app-interface/api/http/v2/feed.feed.md"
+        ],
+        "mcn-interface": [
+            "/Users/boxiao/go-live/app/interface/mcn-interface/api/http/v1/auth.auth.md",
+            "/Users/boxiao/go-live/app/interface/mcn-interface/api/http/v1/operationLog.operationLog.md",
+            "/Users/boxiao/go-live/app/interface/mcn-interface/api/http/v1/invitation.invitation.md",
+            "/Users/boxiao/go-live/app/interface/mcn-interface/api/http/v1/oa.oa.md",
+            "/Users/boxiao/go-live/app/interface/mcn-interface/api/http/v1/message.message.md",
+            "/Users/boxiao/go-live/app/interface/mcn-interface/api/http/v1/guild.guild.md",
+            "/Users/boxiao/go-live/app/interface/mcn-interface/api/http/v1/room.room.md",
+            "/Users/boxiao/go-live/app/interface/mcn-interface/api/http/v1/pay.pay.md",
+            "/Users/boxiao/go-live/app/interface/mcn-interface/api/http/v1/workflow.workflow.md",
+            "/Users/boxiao/go-live/app/interface/mcn-interface/api/http/v1/anchorSalary.anchorSalary.md",
+            "/Users/boxiao/go-live/app/interface/mcn-interface/api/http/v1/cpmUnion.union.md",
+            "/Users/boxiao/go-live/app/interface/mcn-interface/api/http/v1/homePage.homePage.md",
+            "/Users/boxiao/go-live/app/interface/mcn-interface/api/http/v1/guildSalary.guildSalary.md",
+            "/Users/boxiao/go-live/app/interface/mcn-interface/api/http/v1/guildAnswer.guildAnswer.md",
+            "/Users/boxiao/go-live/app/interface/mcn-interface/api/http/v1/guildQuit.guildQuit.md",
+            "/Users/boxiao/go-live/app/interface/mcn-interface/api/http/v1/information.information.md",
+            "/Users/boxiao/go-live/app/interface/mcn-interface/api/http/v1/permissions.permissions.md",
+            "/Users/boxiao/go-live/app/interface/mcn-interface/api/http/v1/notice.notice.md",
+            "/Users/boxiao/go-live/app/interface/mcn-interface/api/http/v1/workstation.workstation.md",
+            "/Users/boxiao/go-live/app/interface/mcn-interface/api/http/v1/guildRenewal.guildRenewal.md"
+        ],
+        "lottery-interface": [
+            "/Users/boxiao/go-live/app/interface/lottery-interface/api/http/lottery.lottery.md",
+            "/Users/boxiao/go-live/app/interface/lottery-interface/api/http/popularity_red_pocket.popularityRedPocket.md"
+        ],
+        "live-admin": [
+            "/Users/boxiao/go-live/app/admin/live-admin/api/http/v1/upload.token.md",
+            "/Users/boxiao/go-live/app/admin/live-admin/api/http/v1/rpcInterface.interface_audit_log.md",
+            "/Users/boxiao/go-live/app/admin/live-admin/api/http/v1/rpcInterface.rpc_interface.md",
+            "/Users/boxiao/go-live/app/admin/live-admin/api/http/v1/upload.upload.md",
+            "/Users/boxiao/go-live/app/admin/live-admin/api/http/v1/auth.platform_auth.md",
+            "/Users/boxiao/go-live/app/admin/live-admin/api/http/v1/capsule.capsule.md",
+            "/Users/boxiao/go-live/app/admin/live-admin/api/http/v1/payGoods.payGoods.md",
+            "/Users/boxiao/go-live/app/admin/live-admin/api/http/v1/auth.check_permission.md",
+            "/Users/boxiao/go-live/app/admin/live-admin/api/http/v1/resource.resource.md",
+            "/Users/boxiao/go-live/app/admin/live-admin/api/http/v1/entry_effect.entry_effect.md",
+            "/Users/boxiao/go-live/app/admin/live-admin/api/http/v1/utilities.utilities.md",
+            "/Users/boxiao/go-live/app/admin/live-admin/api/http/v1/liveMessage.message.md",
+            "/Users/boxiao/go-live/app/admin/live-admin/api/http/v1/auth.platform_menu.md",
+            "/Users/boxiao/go-live/app/admin/live-admin/api/http/v1/payLive.payLive.md",
+            "/Users/boxiao/go-live/app/admin/live-admin/api/http/v1/generalProxy.general_proxy.md",
+            "/Users/boxiao/go-live/app/admin/live-admin/api/http/v1/gaea.gaea.md",
+            "/Users/boxiao/go-live/app/admin/live-admin/api/http/v1/resource.splash.md",
+            "/Users/boxiao/go-live/app/admin/live-admin/api/http/v1/resource.banner.md",
+            "/Users/boxiao/go-live/app/admin/live-admin/api/http/v1/room.roomMng.md",
+            "/Users/boxiao/go-live/app/admin/live-admin/api/http/v2/user_resource.userResource.md"
+        ],
+        "popularity-data-job": [
+            "/Users/boxiao/go-live/app/job/popularity-data-job/api/http/api.md"
+        ],
+        "pay-play-job": [
+            "/Users/boxiao/go-live/app/job/pay-play-job/api/http/paylive.paylive.md"
+        ],
+        "activity-task-job": [
+            "/Users/boxiao/go-live/app/job/activity-task-job/api/http/task_job.taskjob.md"
+        ],
+        "recommend-job": [
+            "/Users/boxiao/go-live/app/job/recommend-job/api/http/api.md"
+        ],
+        "live-dm-msg": [
+            "/Users/boxiao/go-live/app/job/live-dm-msg/api/http/dm.dm.md"
+        ],
+        "xuser-job": [
+            "/Users/boxiao/go-live/app/job/xuser-job/api/http/guard.guard.md",
+            "/Users/boxiao/go-live/app/job/xuser-job/api/http/svip.svipreward.md"
+        ],
+        "xuserreward-job": [
+            "/Users/boxiao/go-live/app/job/xuserreward-job/api/http/api.md"
+        ],
+        "settlement-job": [
+            "/Users/boxiao/go-live/app/job/settlement-job/api/http/demo.demo.md"
+        ],
+        "income-play-job": [
+            "/Users/boxiao/go-live/app/job/income-play-job/api/http/battle_royale.battleroyale.md"
+        ],
+        "xactivity-job": [
+            "/Users/boxiao/go-live/app/job/xactivity-job/api/http/activity.activity.md"
+        ],
+        "live-reward-job": [
+            "/Users/boxiao/go-live/app/job/live-reward-job/api/http/hello.hello.md"
+        ],
+        "xrewardcenter-job": [
+            "/Users/boxiao/go-live/app/job/xrewardcenter-job/api/http/api.md"
+        ],
+        "live-dm-job": [
+            "/Users/boxiao/go-live/app/job/live-dm-job/api/http/record.record.md",
+            "/Users/boxiao/go-live/app/job/live-dm-job/api/http/noticemsg.noticemsg.md"
+        ],
+        "xroom-ad": [
+            "/Users/boxiao/go-live/app/job/xroom-ad/api/http/ad.ad.md"
+        ],
+        "xuserex-job": [
+            "/Users/boxiao/go-live/app/job/xuserex-job/api/http/api.md"
+        ],
+        "behavior-job": [
+            "/Users/boxiao/go-live/app/job/behavior-job/api/http/behavior.behavior.md"
+        ]
+    },
+    "grpc": {
+        "push-live": [
+            "/Users/boxiao/go-live/app/interface/push-live/api/grpc/v1/filter.filter.md"
+        ],
+        "app-room": [
+            "/Users/boxiao/go-live/app/interface/app-room/api/grpc/v1/share.share.md"
+        ],
+        "data-one-piece-task": [
+            "/Users/boxiao/go-live/app/service/data-one-piece-task/api/grpc/berserker.berserker.md",
+            "/Users/boxiao/go-live/app/service/data-one-piece-task/api/grpc/label.label.md"
+        ],
+        "behavior": [
+            "/Users/boxiao/go-live/app/service/behavior/api/grpc/user_task.userTask.md",
+            "/Users/boxiao/go-live/app/service/behavior/api/grpc/rank.rank.md",
+            "/Users/boxiao/go-live/app/service/behavior/api/grpc/behavior.behavior.md",
+            "/Users/boxiao/go-live/app/service/behavior/api/grpc/reward.reward.md"
+        ],
+        "preview_system": [
+            "/Users/boxiao/go-live/app/service/preview_system/api/grpc/background/background.background.md",
+            "/Users/boxiao/go-live/app/service/preview_system/api/grpc/business_control/business_control.business_control.md",
+            "/Users/boxiao/go-live/app/service/preview_system/api/grpc/member/member.member.md"
+        ],
+        "quiz-lottery": [
+            "/Users/boxiao/go-live/app/service/quiz-lottery/api/grpc/lottery.lottery.md"
+        ],
+        "order": [
+            "/Users/boxiao/go-live/app/service/order/api/grpc/v1/block.block.md",
+            "/Users/boxiao/go-live/app/service/order/api/grpc/v1/goods.goods.md",
+            "/Users/boxiao/go-live/app/service/order/api/grpc/v1/order.order.md",
+            "/Users/boxiao/go-live/app/service/order/api/grpc/v1/stream.stream.md",
+            "/Users/boxiao/go-live/app/service/order/api/grpc/v1/contract.contract.md"
+        ],
+        "xuser": [
+            "/Users/boxiao/go-live/app/service/xuser/api/grpc/v1/guard.guard.md",
+            "/Users/boxiao/go-live/app/service/xuser/api/grpc/v1/xuser_data.userData.md",
+            "/Users/boxiao/go-live/app/service/xuser/api/grpc/v1/exp.userExp.md",
+            "/Users/boxiao/go-live/app/service/xuser/api/grpc/v1/lpl.lpl.md",
+            "/Users/boxiao/go-live/app/service/xuser/api/grpc/v1/api.roomAdmin.md",
+            "/Users/boxiao/go-live/app/service/xuser/api/grpc/v1/account/account.account.md",
+            "/Users/boxiao/go-live/app/service/xuser/api/grpc/v1/internal_room.internalRoom.md",
+            "/Users/boxiao/go-live/app/service/xuser/api/grpc/v1/bind/bind.bind.md",
+            "/Users/boxiao/go-live/app/service/xuser/api/grpc/v1/vip.vip.md",
+            "/Users/boxiao/go-live/app/service/xuser/api/grpc/v2/guard_buy.guard.md",
+            "/Users/boxiao/go-live/app/service/xuser/api/grpc/v2/bind/bind.bind.md"
+        ],
+        "mozi": [
+            "/Users/boxiao/go-live/app/service/mozi/api/grpc/rank-battle.rankBattle.md",
+            "/Users/boxiao/go-live/app/service/mozi/api/grpc/sign-up-backend.signUpBackend.md",
+            "/Users/boxiao/go-live/app/service/mozi/api/grpc/sign-up.signup.md",
+            "/Users/boxiao/go-live/app/service/mozi/api/grpc/act-center-backend.actCenterBackend.md",
+            "/Users/boxiao/go-live/app/service/mozi/api/grpc/auto-sign-up-backend.autoSignUpBackend.md",
+            "/Users/boxiao/go-live/app/service/mozi/api/grpc/act-center.actCenter.md"
+        ],
+        "live-play": [
+            "/Users/boxiao/go-live/app/service/live-play/api/grpc/v1/wishing_bottle.wishingBottle.md",
+            "/Users/boxiao/go-live/app/service/live-play/api/grpc/v1/wishing_bottle.wishBottle.md",
+            "/Users/boxiao/go-live/app/service/live-play/api/grpc/daily_quests.dailyQuests.md",
+            "/Users/boxiao/go-live/app/service/live-play/api/grpc/lottery.lottery.md",
+            "/Users/boxiao/go-live/app/service/live-play/api/grpc/live_boss.smallTVBossBack.md",
+            "/Users/boxiao/go-live/app/service/live-play/api/grpc/widgetBannerAdmin.widgetAdminService.md",
+            "/Users/boxiao/go-live/app/service/live-play/api/grpc/fullScEffect.fullScSpecialEffect.md",
+            "/Users/boxiao/go-live/app/service/live-play/api/grpc/lpl_paid_live.lplPaidLive.md",
+            "/Users/boxiao/go-live/app/service/live-play/api/grpc/bnj.bnj2020.md",
+            "/Users/boxiao/go-live/app/service/live-play/api/grpc/interactivepanel.panel.md",
+            "/Users/boxiao/go-live/app/service/live-play/api/grpc/widgetBanner.widgetService.md",
+            "/Users/boxiao/go-live/app/service/live-play/api/grpc/topic.topic.md",
+            "/Users/boxiao/go-live/app/service/live-play/api/grpc/live_boss.liveBossPlay.md",
+            "/Users/boxiao/go-live/app/service/live-play/api/grpc/live_boss.liveBossPlay.Debug.md",
+            "/Users/boxiao/go-live/app/service/live-play/api/grpc/birth_party.birthParty.md",
+            "/Users/boxiao/go-live/app/service/live-play/api/grpc/floatScResource.floatScResource.md",
+            "/Users/boxiao/go-live/app/service/live-play/api/grpc/message_wall.messageWall.md"
+        ],
+        "xuserreward": [
+            "/Users/boxiao/go-live/app/service/xuserreward/api/grpc/v1/achieveManage.achieveManage.md",
+            "/Users/boxiao/go-live/app/service/xuserreward/api/grpc/brand_room_admin.brandRoomAdmin.md",
+            "/Users/boxiao/go-live/app/service/xuserreward/api/grpc/emoticon_upload_admin.emoticonUploadAdmin.md",
+            "/Users/boxiao/go-live/app/service/xuserreward/api/grpc/entry_effect.entryEffect.md",
+            "/Users/boxiao/go-live/app/service/xuserreward/api/grpc/sign.sign.md",
+            "/Users/boxiao/go-live/app/service/xuserreward/api/grpc/achievement.achievement.md",
+            "/Users/boxiao/go-live/app/service/xuserreward/api/grpc/emoticon.emoticon.md",
+            "/Users/boxiao/go-live/app/service/xuserreward/api/grpc/titleRenewCard.userRenewCard.md",
+            "/Users/boxiao/go-live/app/service/xuserreward/api/grpc/titleRenewCard.titleRenewCard.md",
+            "/Users/boxiao/go-live/app/service/xuserreward/api/grpc/title.title.md",
+            "/Users/boxiao/go-live/app/service/xuserreward/api/grpc/titleRenewCard.propMailbox.md",
+            "/Users/boxiao/go-live/app/service/xuserreward/api/grpc/title.titleAdmin.md",
+            "/Users/boxiao/go-live/app/service/xuserreward/api/grpc/glory.glory.md",
+            "/Users/boxiao/go-live/app/service/xuserreward/api/grpc/brand_room.brandRoom.md"
+        ],
+        "data-dqc": [
+            "/Users/boxiao/go-live/app/service/data-dqc/api/grpc/dqc.dqc.md"
+        ],
+        "live-reward": [
+            "/Users/boxiao/go-live/app/service/live-reward/api/grpc/v1/lottery_order.lotteryOrder.md",
+            "/Users/boxiao/go-live/app/service/live-reward/api/grpc/v1/physical_award.physicalAward.md",
+            "/Users/boxiao/go-live/app/service/live-reward/api/grpc/v1/json_config.jsonConfig.md",
+            "/Users/boxiao/go-live/app/service/live-reward/api/grpc/v1/reward_config.rewardConfig.md",
+            "/Users/boxiao/go-live/app/service/live-reward/api/grpc/v1/doc_config.docConfig.md",
+            "/Users/boxiao/go-live/app/service/live-reward/api/grpc/v0/physical_award.physicalAwardAdmin.md",
+            "/Users/boxiao/go-live/app/service/live-reward/api/grpc/v2/reward_config.rewardConfigAdmin.md",
+            "/Users/boxiao/go-live/app/service/live-reward/api/grpc/v2/act_score_config.actScoreAdmin.md",
+            "/Users/boxiao/go-live/app/service/live-reward/api/grpc/v2/doc_config.docConfigAdmin.md",
+            "/Users/boxiao/go-live/app/service/live-reward/api/grpc/v2/real_award_config.realAwardAdmin.md",
+            "/Users/boxiao/go-live/app/service/live-reward/api/grpc/v2/json_config.jsonConfigAdmin.md",
+            "/Users/boxiao/go-live/app/service/live-reward/api/grpc/v3/user_item_backend.userItemBackend.md",
+            "/Users/boxiao/go-live/app/service/live-reward/api/grpc/v3/user_item.userItem.md"
+        ],
+        "xcaptcha": [
+            "/Users/boxiao/go-live/app/service/xcaptcha/api/grpc/v1/xcaptcha.xCaptcha.md",
+            "/Users/boxiao/go-live/app/service/xcaptcha/api/grpc/v1/xverifycode.xVerifycode.md"
+        ],
+        "live-risk-metrics": [
+            "/Users/boxiao/go-live/app/service/live-risk-metrics/api/grpc/v1/api.metricService.md"
+        ],
+        "settlement": [
+            "/Users/boxiao/go-live/app/service/settlement/api/grpc/v1/gift_settlement.giftSettlement.md",
+            "/Users/boxiao/go-live/app/service/settlement/api/grpc/v1/settlement.settlement.md",
+            "/Users/boxiao/go-live/app/service/settlement/api/grpc/v1/intercept.intercept.md",
+            "/Users/boxiao/go-live/app/service/settlement/api/grpc/v1/anchorSettlement/anchor_settlement.anchorSettlement.md",
+            "/Users/boxiao/go-live/app/service/settlement/api/grpc/v1/anchor_hamster.anchorHamster.md",
+            "/Users/boxiao/go-live/app/service/settlement/api/grpc/v1/anchorIntercept/anchor_intercept.anchorIntercept.md"
+        ],
+        "recommend": [
+            "/Users/boxiao/go-live/app/service/recommend/api/grpc/v1/api.recommend.md",
+            "/Users/boxiao/go-live/app/service/recommend/api/grpc/v2/api.recommendV2.md"
+        ],
+        "mcn-auth": [
+            "/Users/boxiao/go-live/app/service/mcn-auth/api/grpc/auth.auth.md",
+            "/Users/boxiao/go-live/app/service/mcn-auth/api/grpc/auth.wechat.md"
+        ],
+        "xroom-pool": [
+            "/Users/boxiao/go-live/app/service/xroom-pool/api/grpc/api.base.md",
+            "/Users/boxiao/go-live/app/service/xroom-pool/api/grpc/pool.pool.md"
+        ],
+        "xroom": [
+            "/Users/boxiao/go-live/app/service/xroom/api/grpc/v1/shortIdMng.shortIdMng.md"
+        ],
+        "live-dm": [
+            "/Users/boxiao/go-live/app/service/live-dm/api/grpc/v1/dmreport.dMReport.md",
+            "/Users/boxiao/go-live/app/service/live-dm/api/grpc/v1/playback_manager.manager.md",
+            "/Users/boxiao/go-live/app/service/live-dm/api/grpc/v1/dm.dM.md",
+            "/Users/boxiao/go-live/app/service/live-dm/api/grpc/v1/white_list.wL.md",
+            "/Users/boxiao/go-live/app/service/live-dm/api/grpc/v1/noticemsg_mng.noticeMsg.md",
+            "/Users/boxiao/go-live/app/service/live-dm/api/grpc/v1/playback.playBack.md",
+            "/Users/boxiao/go-live/app/service/live-dm/api/grpc/v1/common_message.cM.md"
+        ],
+        "xclient": [
+            "/Users/boxiao/go-live/app/service/xclient/api/grpc/v1/blink.blink.md",
+            "/Users/boxiao/go-live/app/service/xclient/api/grpc/v1/banner.banner.md",
+            "/Users/boxiao/go-live/app/service/xclient/api/grpc/v1/tab.tab.md",
+            "/Users/boxiao/go-live/app/service/xclient/api/grpc/v1/activity.activity.md",
+            "/Users/boxiao/go-live/app/service/xclient/api/grpc/v1/build_conn.buildConn.md"
+        ],
+        "xactivity": [
+            "/Users/boxiao/go-live/app/service/xactivity/api/grpc/v1/specApi.specApi.md",
+            "/Users/boxiao/go-live/app/service/xactivity/api/grpc/v1/spring.spring.md",
+            "/Users/boxiao/go-live/app/service/xactivity/api/grpc/v1/generalRankFrontend.generalRankFrontend.md",
+            "/Users/boxiao/go-live/app/service/xactivity/api/grpc/v1/april_play_with.aprilPlayWith.md",
+            "/Users/boxiao/go-live/app/service/xactivity/api/grpc/v1/common.common.md",
+            "/Users/boxiao/go-live/app/service/xactivity/api/grpc/v1/video_pk_s2.videoPkS2.md",
+            "/Users/boxiao/go-live/app/service/xactivity/api/grpc/v1/generalTrading.generalTrading.md",
+            "/Users/boxiao/go-live/app/service/xactivity/api/grpc/v1/summer2021.summer2021.md",
+            "/Users/boxiao/go-live/app/service/xactivity/api/grpc/v1/bind.bind.md",
+            "/Users/boxiao/go-live/app/service/xactivity/api/grpc/v1/genshin_202107.genshin202107.md",
+            "/Users/boxiao/go-live/app/service/xactivity/api/grpc/v1/march_blind_gift.march_blind_gift.md",
+            "/Users/boxiao/go-live/app/service/xactivity/api/grpc/v1/april_super_star.april_super_star.md",
+            "/Users/boxiao/go-live/app/service/xactivity/api/grpc/rank.rank.md",
+            "/Users/boxiao/go-live/app/service/xactivity/api/grpc/activity_content.activity_content.md",
+            "/Users/boxiao/go-live/app/service/xactivity/api/grpc/award_data.award_data.md",
+            "/Users/boxiao/go-live/app/service/xactivity/api/grpc/lanturn2021.lanturn2021.md",
+            "/Users/boxiao/go-live/app/service/xactivity/api/grpc/matchroom.matchroom.md",
+            "/Users/boxiao/go-live/app/service/xactivity/api/grpc/award_backend.award_backend.md",
+            "/Users/boxiao/go-live/app/service/xactivity/api/grpc/august.august.md",
+            "/Users/boxiao/go-live/app/service/xactivity/api/grpc/s10.s10.md",
+            "/Users/boxiao/go-live/app/service/xactivity/api/grpc/treasure_box_exchange.treasureBoxExchange.md",
+            "/Users/boxiao/go-live/app/service/xactivity/api/grpc/spring_festival2021.spring_festival2021.md",
+            "/Users/boxiao/go-live/app/service/xactivity/api/grpc/july.july.md",
+            "/Users/boxiao/go-live/app/service/xactivity/api/grpc/activity_backend.activity_backend.md",
+            "/Users/boxiao/go-live/app/service/xactivity/api/grpc/award.award.md",
+            "/Users/boxiao/go-live/app/service/xactivity/api/grpc/winter_vacation2021.winterVacation.md",
+            "/Users/boxiao/go-live/app/service/xactivity/api/grpc/activity.activity.md",
+            "/Users/boxiao/go-live/app/service/xactivity/api/grpc/bls2020.bls2020.md",
+            "/Users/boxiao/go-live/app/service/xactivity/api/grpc/rank_backend.rank_backend.md",
+            "/Users/boxiao/go-live/app/service/xactivity/api/grpc/treasure_debris_compound.treasureDebrisCompound.md",
+            "/Users/boxiao/go-live/app/service/xactivity/api/grpc/rank_pendant.rank_pendant.md"
+        ],
+        "artemis": [
+            "/Users/boxiao/go-live/app/service/artemis/api/grpc/v1/common.common.md",
+            "/Users/boxiao/go-live/app/service/artemis/api/grpc/v1/bind.bind.md"
+        ],
+        "abtest": [
+            "/Users/boxiao/go-live/app/service/abtest/api/grpc/jumpfrom.jumpfrom.md",
+            "/Users/boxiao/go-live/app/service/abtest/api/grpc/abtest.abtest.md"
+        ],
+        "mcn-mng": [
+            "/Users/boxiao/go-live/app/service/mcn-mng/api/grpc/v1/operation_log.operationLog.md",
+            "/Users/boxiao/go-live/app/service/mcn-mng/api/grpc/v1/oa.oa.md",
+            "/Users/boxiao/go-live/app/service/mcn-mng/api/grpc/v1/anchor_mng.anchorMng.md",
+            "/Users/boxiao/go-live/app/service/mcn-mng/api/grpc/v1/export.export.md",
+            "/Users/boxiao/go-live/app/service/mcn-mng/api/grpc/v1/notice.category.md",
+            "/Users/boxiao/go-live/app/service/mcn-mng/api/grpc/v1/banner.banner.md",
+            "/Users/boxiao/go-live/app/service/mcn-mng/api/grpc/v1/guild.guild.md",
+            "/Users/boxiao/go-live/app/service/mcn-mng/api/grpc/v1/anchor.anchor.md",
+            "/Users/boxiao/go-live/app/service/mcn-mng/api/grpc/v1/workflow.workflow.md",
+            "/Users/boxiao/go-live/app/service/mcn-mng/api/grpc/v1/notice.config.md",
+            "/Users/boxiao/go-live/app/service/mcn-mng/api/grpc/v1/msssage.message.md",
+            "/Users/boxiao/go-live/app/service/mcn-mng/api/grpc/v1/monitor.monitor.md",
+            "/Users/boxiao/go-live/app/service/mcn-mng/api/grpc/v1/data.data.md",
+            "/Users/boxiao/go-live/app/service/mcn-mng/api/grpc/v1/information.information.md",
+            "/Users/boxiao/go-live/app/service/mcn-mng/api/grpc/v1/notice.notice.md"
+        ],
+        "xrewardcenter": [
+            "/Users/boxiao/go-live/app/service/xrewardcenter/api/grpc/v1/AnchorReward.anchorReward.md",
+            "/Users/boxiao/go-live/app/service/xrewardcenter/api/grpc/v1/Reward.reward.md",
+            "/Users/boxiao/go-live/app/service/xrewardcenter/api/grpc/v0/RewardPool.rewardPool.md",
+            "/Users/boxiao/go-live/app/service/xrewardcenter/api/grpc/api.md",
+            "/Users/boxiao/go-live/app/service/xrewardcenter/api/grpc/v2/anchorReward.anchorReward.md",
+            "/Users/boxiao/go-live/app/service/xrewardcenter/api/grpc/v2/skin.skin.md"
+        ],
+        "xheartbeat": [
+            "/Users/boxiao/go-live/app/service/xheartbeat/api/grpc/watch.heartbeat.md"
+        ],
+        "live-task": [
+            "/Users/boxiao/go-live/app/service/live-task/api/grpc/user_task.userTask.md",
+            "/Users/boxiao/go-live/app/service/live-task/api/grpc/dragon_boat.dragonBoat.md",
+            "/Users/boxiao/go-live/app/service/live-task/api/grpc/match_task.matchTask.md",
+            "/Users/boxiao/go-live/app/service/live-task/api/grpc/hamster_approve.hamsterApprove.md",
+            "/Users/boxiao/go-live/app/service/live-task/api/grpc/april_superstar.aprilSuperstar.md",
+            "/Users/boxiao/go-live/app/service/live-task/api/grpc/task_backend.taskBackend.md",
+            "/Users/boxiao/go-live/app/service/live-task/api/grpc/collect_card.collectCard.md",
+            "/Users/boxiao/go-live/app/service/live-task/api/grpc/may_sweet.maySweet.md",
+            "/Users/boxiao/go-live/app/service/live-task/api/grpc/bls_2020.bls2020.md"
+        ],
+        "xuserex": [
+            "/Users/boxiao/go-live/app/service/xuserex/api/grpc/v1/confDepot.confDepot.md",
+            "/Users/boxiao/go-live/app/service/xuserex/api/grpc/v1/roomNotice.roomNotice.md",
+            "/Users/boxiao/go-live/app/service/xuserex/api/grpc/v1/labs.labs.md",
+            "/Users/boxiao/go-live/app/service/xuserex/api/grpc/v1/danmuConfMng.dmConfMng.md",
+            "/Users/boxiao/go-live/app/service/xuserex/api/grpc/v1/dmConfig.dmConfig.md",
+            "/Users/boxiao/go-live/app/service/xuserex/api/grpc/v1/xuserex_data.xuserexData.md",
+            "/Users/boxiao/go-live/app/service/xuserex/api/grpc/v1/bubble.bubble.md",
+            "/Users/boxiao/go-live/app/service/xuserex/api/grpc/v1/user_color.userColor.md"
+        ],
+        "xanchor": [
+            "/Users/boxiao/go-live/app/service/xanchor/api/grpc/v1/pendant.pendant.md",
+            "/Users/boxiao/go-live/app/service/xanchor/api/grpc/v1/liveCalendar.liveCalendar.md",
+            "/Users/boxiao/go-live/app/service/xanchor/api/grpc/v1/ShareConf/shareMsg.shareConfMsg.md",
+            "/Users/boxiao/go-live/app/service/xanchor/api/grpc/v1/ShareConf/shareConf.shareConf.md",
+            "/Users/boxiao/go-live/app/service/xanchor/api/grpc/v1/preLiveIcon.preliveIcon.md",
+            "/Users/boxiao/go-live/app/service/xanchor/api/grpc/v1/preLiveInfo.preliveInfo.md",
+            "/Users/boxiao/go-live/app/service/xanchor/api/grpc/v1/roomNews.roomNews.md",
+            "/Users/boxiao/go-live/app/service/xanchor/api/grpc/v1/interact.interactService.md",
+            "/Users/boxiao/go-live/app/service/xanchor/api/grpc/v1/reHistoryTitle.reHistoryTitle.md",
+            "/Users/boxiao/go-live/app/service/xanchor/api/grpc/v1/nps.npsService.md",
+            "/Users/boxiao/go-live/app/service/xanchor/api/grpc/v1/stickersMng.stickersMng.md",
+            "/Users/boxiao/go-live/app/service/xanchor/api/grpc/v1/sanMng.sanMng.md",
+            "/Users/boxiao/go-live/app/service/xanchor/api/grpc/v1/record.record.md",
+            "/Users/boxiao/go-live/app/service/xanchor/api/grpc/v1/anchorSwitch.npsService.md",
+            "/Users/boxiao/go-live/app/service/xanchor/api/grpc/v1/virtualStorm.virtualStorm.md",
+            "/Users/boxiao/go-live/app/service/xanchor/api/grpc/v1/vote.vote.md",
+            "/Users/boxiao/go-live/app/service/xanchor/api/grpc/v1/virtual.virtual.md",
+            "/Users/boxiao/go-live/app/service/xanchor/api/grpc/v1/anchorSwitch.anchorSwitch.md",
+            "/Users/boxiao/go-live/app/service/xanchor/api/grpc/v1/anchorTag.anchorTag.md",
+            "/Users/boxiao/go-live/app/service/xanchor/api/grpc/v1/anchorSwitch.anchorSwitchService.md",
+            "/Users/boxiao/go-live/app/service/xanchor/api/grpc/v1/popConf.popsConf.md",
+            "/Users/boxiao/go-live/app/service/xanchor/api/grpc/v1/liveCalendarUser.liveCalendarUser.md",
+            "/Users/boxiao/go-live/app/service/xanchor/api/grpc/v1/switchNewRoom.switchNewRoom.md",
+            "/Users/boxiao/go-live/app/service/xanchor/api/grpc/v1/pornCheck.pornCheck.md",
+            "/Users/boxiao/go-live/app/service/xanchor/api/grpc/v1/ObserverOnline/observerOnline.observerOnline.md",
+            "/Users/boxiao/go-live/app/service/xanchor/api/grpc/v1/ObserverOnline/observerOnlineLog.observerOnlineLog.md",
+            "/Users/boxiao/go-live/app/service/xanchor/api/grpc/v1/clarity.clarity.md",
+            "/Users/boxiao/go-live/app/service/xanchor/api/grpc/v1/anchorAcademy.anchorAcademy.md",
+            "/Users/boxiao/go-live/app/service/xanchor/api/grpc/v1/stickers.stickers.md",
+            "/Users/boxiao/go-live/app/service/xanchor/api/grpc/v1/san.san.md",
+            "/Users/boxiao/go-live/app/service/xanchor/api/grpc/v1/popConfMng.popConfMng.md"
+        ],
+        "gift": [
+            "/Users/boxiao/go-live/app/service/gift/api/grpc/v1/specialPlan.specialPlan.md",
+            "/Users/boxiao/go-live/app/service/gift/api/grpc/v1/blind_gift.blindGift.md",
+            "/Users/boxiao/go-live/app/service/gift/api/grpc/v1/gift_stream.giftStream.md",
+            "/Users/boxiao/go-live/app/service/gift/api/grpc/v1/gold_package.goldPackage.md",
+            "/Users/boxiao/go-live/app/service/gift/api/grpc/v1/backend.backend.md",
+            "/Users/boxiao/go-live/app/service/gift/api/grpc/v1/api.gift.md",
+            "/Users/boxiao/go-live/app/service/gift/api/grpc/v1/children_stream.childremStream.md",
+            "/Users/boxiao/go-live/app/service/gift/api/grpc/v1/bag.bag.md"
+        ],
+        "xfetter": [
+            "/Users/boxiao/go-live/app/service/xfetter/api/grpc/component.componentMng.md",
+            "/Users/boxiao/go-live/app/service/xfetter/api/grpc/fetter.fetter.md",
+            "/Users/boxiao/go-live/app/service/xfetter/api/grpc/relation.relation.md"
+        ],
+        "rubick-push": [
+            "/Users/boxiao/go-live/app/service/rubick-push/api/grpc/v1/api.recommendPushV1.md"
+        ],
+        "finance-cost-mng": [
+            "/Users/boxiao/go-live/app/service/finance-cost-mng/api/grpc/finance_pay.financePay.md",
+            "/Users/boxiao/go-live/app/service/finance-cost-mng/api/grpc/finance_suject.financeSuject.md",
+            "/Users/boxiao/go-live/app/service/finance-cost-mng/api/grpc/finance_settle.financeSettle.md",
+            "/Users/boxiao/go-live/app/service/finance-cost-mng/api/grpc/finance_user.financeUser.md"
+        ],
+        "xrobot": [
+            "/Users/boxiao/go-live/app/service/xrobot/api/grpc/v1/SendMessage.sendMessage.md",
+            "/Users/boxiao/go-live/app/service/xrobot/api/grpc/v1/SendMessage.weChatService.md",
+            "/Users/boxiao/go-live/app/service/xrobot/api/grpc/v1/SendMessage.wxServAccountService.md"
+        ],
+        "rubick": [
+            "/Users/boxiao/go-live/app/service/rubick/api/grpc/v1/api.recommendV1.md",
+            "/Users/boxiao/go-live/app/service/rubick/api/grpc/alchemist/auth.auth.md",
+            "/Users/boxiao/go-live/app/service/rubick/api/grpc/alchemist/api.strategy.md"
+        ],
+        "live-risk-rule-manage": [
+            "/Users/boxiao/go-live/app/service/live-risk-rule-manage/api/grpc/api.ruleManage.md"
+        ],
+        "income-play": [
+            "/Users/boxiao/go-live/app/service/income-play/api/grpc/v1/interactive_game_pk.interactiveGamePk.md",
+            "/Users/boxiao/go-live/app/service/income-play/api/grpc/v1/pk_battle.pkbattle.md",
+            "/Users/boxiao/go-live/app/service/income-play/api/grpc/v1/pvpve_pk/pvpve_pk.pvpvepk.md",
+            "/Users/boxiao/go-live/app/service/income-play/api/grpc/v1/battle_royale.battleroyale.md"
+        ],
+        "wallet": [
+            "/Users/boxiao/go-live/app/service/wallet/api/grpc/v1/api.wallet.md",
+            "/Users/boxiao/go-live/app/service/wallet/api/grpc/v1/hamster_account.hamsterAccount.md",
+            "/Users/boxiao/go-live/app/service/wallet/api/grpc/v2/user_account.userAccount.md",
+            "/Users/boxiao/go-live/app/service/wallet/api/grpc/v3/third_account.thirdAccount.md"
+        ],
+        "xlottery": [
+            "/Users/boxiao/go-live/app/service/xlottery/api/grpc/v1/api.smallTV.md",
+            "/Users/boxiao/go-live/app/service/xlottery/api/grpc/v1/danmu.lottery.md",
+            "/Users/boxiao/go-live/app/service/xlottery/api/grpc/v1/lottery.lottery.md",
+            "/Users/boxiao/go-live/app/service/xlottery/api/grpc/v1/gift_lottery.gift_draw.md",
+            "/Users/boxiao/go-live/app/service/xlottery/api/grpc/v1/silverbox.silverBox.md",
+            "/Users/boxiao/go-live/app/service/xlottery/api/grpc/v1/red_pocket.redPocket.md",
+            "/Users/boxiao/go-live/app/service/xlottery/api/grpc/v1/api.capsule.md",
+            "/Users/boxiao/go-live/app/service/xlottery/api/grpc/v1/lottery.gift_lottery.md",
+            "/Users/boxiao/go-live/app/service/xlottery/api/grpc/v1/exchang_code.exchange_code.md",
+            "/Users/boxiao/go-live/app/service/xlottery/api/grpc/v1/anchor.anchor.md",
+            "/Users/boxiao/go-live/app/service/xlottery/api/grpc/v1/api.pk.md",
+            "/Users/boxiao/go-live/app/service/xlottery/api/grpc/v1/api.storm.md",
+            "/Users/boxiao/go-live/app/service/xlottery/api/grpc/v1/box.box.md",
+            "/Users/boxiao/go-live/app/service/xlottery/api/grpc/v1/api.guard.md"
+        ],
+        "live_riskcontrol": [
+            "/Users/boxiao/go-live/app/service/live_riskcontrol/api/grpc/v1/api.isForbidden.md",
+            "/Users/boxiao/go-live/app/service/live_riskcontrol/api/grpc/v2/api.isForbidden.md"
+        ],
+        "activity-task": [
+            "/Users/boxiao/go-live/app/service/activity-task/api/grpc/user_task.userTask.md",
+            "/Users/boxiao/go-live/app/service/activity-task/api/grpc/background.background.md",
+            "/Users/boxiao/go-live/app/service/activity-task/api/grpc/anchor_task_info.anchorTaskInfo.md",
+            "/Users/boxiao/go-live/app/service/activity-task/api/grpc/anchor_task_bg.anchorTaskBackground.md",
+            "/Users/boxiao/go-live/app/service/activity-task/api/grpc/anchorTaskCenter/anchor_task_center.anchorTaskCenter.md",
+            "/Users/boxiao/go-live/app/service/activity-task/api/grpc/anchorTaskCenter/anchor_task_center_bg.anchorTaskCenterBg.md",
+            "/Users/boxiao/go-live/app/service/activity-task/api/grpc/live_subscribe.liveSubscribe.md",
+            "/Users/boxiao/go-live/app/service/activity-task/api/grpc/anchor_task.anchorTask.md",
+            "/Users/boxiao/go-live/app/service/activity-task/api/grpc/task.task.md",
+            "/Users/boxiao/go-live/app/service/activity-task/api/grpc/user_task_new.userTaskNew.md",
+            "/Users/boxiao/go-live/app/service/activity-task/api/grpc/seven_month_activity.sevenMonthActivity.md",
+            "/Users/boxiao/go-live/app/service/activity-task/api/grpc/activity.activity.md",
+            "/Users/boxiao/go-live/app/service/activity-task/api/grpc/user_task_bg_old.userTaskBackgroundOld.md",
+            "/Users/boxiao/go-live/app/service/activity-task/api/grpc/user_task.anchorTask.md",
+            "/Users/boxiao/go-live/app/service/activity-task/api/grpc/user_task_bg.userTaskBackground.md",
+            "/Users/boxiao/go-live/app/service/activity-task/api/grpc/open_task.openTask.md"
+        ],
+        "xlive-data": [
+            "/Users/boxiao/go-live/app/service/xlive-data/api/grpc/v1/settlement.settlement.md",
+            "/Users/boxiao/go-live/app/service/xlive-data/api/grpc/v1/record.record.md",
+            "/Users/boxiao/go-live/app/service/xlive-data/api/grpc/v1/anchorTag.anchortag.md",
+            "/Users/boxiao/go-live/app/service/xlive-data/api/grpc/v1/live.live.md",
+            "/Users/boxiao/go-live/app/service/xlive-data/api/grpc/v1/chemcenser.chemcenser.md"
+        ],
+        "anchor-task-center": [
+            "/Users/boxiao/go-live/app/service/anchor-task-center/api/grpc/anchor_task_center_task_config_bg.anchorTaskCenterTaskConfigBg.md",
+            "/Users/boxiao/go-live/app/service/anchor-task-center/api/grpc/anchor_task_center_api.anchorTaskCenterApi.md",
+            "/Users/boxiao/go-live/app/service/anchor-task-center/api/grpc/anchor_member_api.anchorMemberApi.md",
+            "/Users/boxiao/go-live/app/service/anchor-task-center/api/grpc/anchor_task_center_people_task_config_bg.anchorTaskCenterPeopleTaskConfigBg.md",
+            "/Users/boxiao/go-live/app/service/anchor-task-center/api/grpc/anchor_task_center_people_config_bg.anchorTaskCenterPeopleConfigBg.md"
+        ],
+        "xbanned": [
+            "/Users/boxiao/go-live/app/service/xbanned/api/grpc/v1/silent.silent.md",
+            "/Users/boxiao/go-live/app/service/xbanned/api/grpc/v1/namelist.namelist.md",
+            "/Users/boxiao/go-live/app/service/xbanned/api/grpc/v1/siteblock.siteBlock.md",
+            "/Users/boxiao/go-live/app/service/xbanned/api/grpc/v1/block.user.md",
+            "/Users/boxiao/go-live/app/service/xbanned/api/grpc/v1/siteblock.user.md",
+            "/Users/boxiao/go-live/app/service/xbanned/api/grpc/v1/black.black.md",
+            "/Users/boxiao/go-live/app/service/xbanned/api/grpc/v1/shield.shield.md",
+            "/Users/boxiao/go-live/app/service/xbanned/api/grpc/v2/silent.silent.md"
+        ],
+        "xroom-ad": [
+            "/Users/boxiao/go-live/app/service/xroom-ad/api/grpc/ad.ad.md",
+            "/Users/boxiao/go-live/app/service/xroom-ad/api/grpc/ad.adOrder.md"
+        ],
+        "resource": [
+            "/Users/boxiao/go-live/app/service/resource/api/grpc/v1/api.resource.md",
+            "/Users/boxiao/go-live/app/service/resource/api/grpc/v1/cdnonline.cDNOnline.md",
+            "/Users/boxiao/go-live/app/service/resource/api/grpc/v1/timeconf.timeConf.md",
+            "/Users/boxiao/go-live/app/service/resource/api/grpc/v1/api.splash.md",
+            "/Users/boxiao/go-live/app/service/resource/api/grpc/v1/jumpfrom.jumpFrom.md",
+            "/Users/boxiao/go-live/app/service/resource/api/grpc/v1/api.banner.md",
+            "/Users/boxiao/go-live/app/service/resource/api/grpc/v1/titans.titans.md",
+            "/Users/boxiao/go-live/app/service/resource/api/grpc/v1/abtest.abtest.md",
+            "/Users/boxiao/go-live/app/service/resource/api/grpc/v1/livecheck.liveCheck.md",
+            "/Users/boxiao/go-live/app/service/resource/api/grpc/v1/kv.kv.md",
+            "/Users/boxiao/go-live/app/service/resource/api/grpc/v2/user_resource.userResource.md",
+            "/Users/boxiao/go-live/app/service/resource/api/grpc/v2/comment.comment.md",
+            "/Users/boxiao/go-live/app/service/resource/api/grpc/v2/send_Email.comment.md",
+            "/Users/boxiao/go-live/app/service/resource/api/grpc/v2/send_Email.sendEmail.md"
+        ],
+        "quiz-card": [
+            "/Users/boxiao/go-live/app/service/quiz-card/api/grpc/card.card.md"
+        ],
+        "quiz-admin": [
+            "/Users/boxiao/go-live/app/service/quiz-admin/api/grpc/card.card.md",
+            "/Users/boxiao/go-live/app/service/quiz-admin/api/grpc/session.session.md",
+            "/Users/boxiao/go-live/app/service/quiz-admin/api/grpc/push.push.md",
+            "/Users/boxiao/go-live/app/service/quiz-admin/api/grpc/quiz.quizService.md",
+            "/Users/boxiao/go-live/app/service/quiz-admin/api/grpc/question.question.md"
+        ],
+        "trading": [
+            "/Users/boxiao/go-live/app/service/trading/api/grpc/v1/transaction.transaction.md",
+            "/Users/boxiao/go-live/app/service/trading/api/grpc/v1/score.score.md"
+        ],
+        "rankdb": [
+            "/Users/boxiao/go-live/app/service/rankdb/api/grpc/v1/blackUser.rankBlackUser.md",
+            "/Users/boxiao/go-live/app/service/rankdb/api/grpc/v1/hotRank.hotRank.md",
+            "/Users/boxiao/go-live/app/service/rankdb/api/grpc/v1/liveRoundRank.liveRoundRank.md",
+            "/Users/boxiao/go-live/app/service/rankdb/api/grpc/v1/7DayGoldRank.sevenDayGoldRank.md",
+            "/Users/boxiao/go-live/app/service/rankdb/api/grpc/v1/baseRank.baseRank.md",
+            "/Users/boxiao/go-live/app/service/rankdb/api/grpc/v1/7DayGoldRank.goldRank.md",
+            "/Users/boxiao/go-live/app/service/rankdb/api/grpc/v1/rankUser.rankUser.md",
+            "/Users/boxiao/go-live/app/service/rankdb/api/grpc/v1/onlineGoldRank.onlineGoldRank.md",
+            "/Users/boxiao/go-live/app/service/rankdb/api/grpc/v1/onlineRank.onlineRank.md",
+            "/Users/boxiao/go-live/app/service/rankdb/api/grpc/v1/totalRank.totalRank.md",
+            "/Users/boxiao/go-live/app/service/rankdb/api/grpc/v1/heartRank.anchorRank.md",
+            "/Users/boxiao/go-live/app/service/rankdb/api/grpc/v2/generalRankFrontend.generalRankFrontend.md",
+            "/Users/boxiao/go-live/app/service/rankdb/api/grpc/v2/generalRankBackend.generalRankBackend.md",
+            "/Users/boxiao/go-live/app/service/rankdb/api/grpc/v3/BaseModule.baseModule.md"
+        ],
+        "matrix": [
+            "/Users/boxiao/go-live/app/service/matrix/api/grpc/wechat.wechat.md",
+            "/Users/boxiao/go-live/app/service/matrix/api/grpc/brain.brain.md"
+        ],
+        "dao-anchor": [
+            "/Users/boxiao/go-live/app/service/dao-anchor/api/grpc/v1/api.daoAnchor.md",
+            "/Users/boxiao/go-live/app/service/dao-anchor/api/grpc/v1/api.popularity.md",
+            "/Users/boxiao/go-live/app/service/dao-anchor/api/grpc/v0/api.popularity.md"
+        ],
+        "topics": [
+            "/Users/boxiao/go-live/app/service/topics/api/grpc/v1/topic.topic.md"
+        ],
+        "pay-play": [
+            "/Users/boxiao/go-live/app/service/pay-play/api/grpc/v1/payliveadmin.payLiveAdmin.md",
+            "/Users/boxiao/go-live/app/service/pay-play/api/grpc/v1/SuperChat.superChat.md",
+            "/Users/boxiao/go-live/app/service/pay-play/api/grpc/v1/lpl.lpl.md",
+            "/Users/boxiao/go-live/app/service/pay-play/api/grpc/v1/payLiveClass.payLiveClass.md",
+            "/Users/boxiao/go-live/app/service/pay-play/api/grpc/v1/PayLive.payLive.md"
+        ]
+    }
+}
