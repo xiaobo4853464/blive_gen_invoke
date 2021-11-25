@@ -145,7 +145,7 @@ class {file_name.capitalize().replace("-", "_")}(object):
 
 
 def pre(spec_dir='app'):
-    prj_path = f"{os.environ['HOME']}/go-live"
+    prj_path = "go-live"
     os.chdir(prj_path)
 
     os.system('git reset --hard')
