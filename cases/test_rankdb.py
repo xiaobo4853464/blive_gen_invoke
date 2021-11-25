@@ -9,7 +9,7 @@ from src.rankdb import Rankdb
 class TestRankdb(object):
     @classmethod
     def setup_class(cls):
-        cls.mygrpc = Rankdb('live.rankdb')
+        cls.mygrpc = Rankdb()
 
     def test_add_rank_black(self):
         r = self.mygrpc.add_rank_black(uids=1,rankName=1,reason=1,status=1,operator=1)

@@ -70,8 +70,8 @@ def generate(input_json_path, output_path=None, category="grpc"):
             for r in results:
                 lines = r.splitlines()
                 d = {"interface": lines[0], "desc": lines[1]}
-                if d['interface'] == '/live.xuserex.v1.dmConfig/WearForOld':  # debug
-                    print(1)
+                # if d['interface'] == '/live.xuserex.v1.dmConfig/WearForOld':  # debug
+                #     print(1)
                 method = 'grpc_call'
                 for line in lines:
                     line = line.replace("||", "|")
@@ -203,6 +203,6 @@ if __name__ == '__main__':
     time.sleep(3)
     generate(out_put_path, 'src')
 
-    print("done")
+    time.sleep(3)
     # gencode
-    # gen_code('src')
+    gen_code('src')

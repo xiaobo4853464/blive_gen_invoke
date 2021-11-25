@@ -131,6 +131,10 @@ class TestMcn_mng(object):
         r = self.mygrpc.get_anchor_list(g_id=1,page=1,page_size=1)
         print(r)
 
+    def test_get_anchor_live_data(self):
+        r = self.mygrpc.get_anchor_live_data(uid=1)
+        print(r)
+
     def test_get_anchor_quit_apply_list(self):
         r = self.mygrpc.get_anchor_quit_apply_list(org_id=1,type=1)
         print(r)

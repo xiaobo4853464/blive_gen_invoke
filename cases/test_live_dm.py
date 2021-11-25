@@ -9,7 +9,7 @@ from src.live_dm import Live_dm
 class TestLive_dm(object):
     @classmethod
     def setup_class(cls):
-        cls.mygrpc = Live_dm('live.livedm')
+        cls.mygrpc = Live_dm()
 
     def test_add_room(self):
         r = self.mygrpc.add_room(room_ids=1,list_name=1)
@@ -32,7 +32,7 @@ class TestLive_dm(object):
         print(r)
 
     def test_ban_broadcast(self):
-        r = self.mygrpc.ban_broadcast(data=1,msgtype=1,**{"from":1})
+        r = self.mygrpc.ban_broadcast(data=1,msgtype=1,**from_=1)
         print(r)
 
     def test_baninfo(self):
@@ -76,7 +76,7 @@ class TestLive_dm(object):
         print(r)
 
     def test_entry_broadcast(self):
-        r = self.mygrpc.entry_broadcast(data=1,msgtype=1,**{"from":1})
+        r = self.mygrpc.entry_broadcast(data=1,msgtype=1,**from_=1)
         print(r)
 
     def test_get_audit_content_conf(self):
@@ -128,7 +128,7 @@ class TestLive_dm(object):
         print(r)
 
     def test_gift_broadcast(self):
-        r = self.mygrpc.gift_broadcast(data=1,msgtype=1,**{"from":1})
+        r = self.mygrpc.gift_broadcast(data=1,msgtype=1,**from_=1)
         print(r)
 
     def test_ignore(self):

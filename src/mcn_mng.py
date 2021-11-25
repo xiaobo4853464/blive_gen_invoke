@@ -344,6 +344,10 @@ class Mcn_mng(object):
     def get_personal_rec(self, uid, guild_id, start_date=None, end_date=None):
         """### 查询单个主播直播记录"""
 
+    @grpc_call(path="/live.mcnmng.v1.Data/GetAnchorLiveData")
+    def get_anchor_live_data(self, uid, guild_id=None, start_date=None, end_date=None):
+        """### 查询单个主播开播数据"""
+
     @grpc_call(path="/live.mcnmng.v1.information/GetBasicInfo")
     def get_basic_info(self, guild_id):
         """### GetBasicInfo 获取公会基础资料"""

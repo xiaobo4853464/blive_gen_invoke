@@ -9,7 +9,7 @@ from src.behavior import Behavior
 class TestBehavior(object):
     @classmethod
     def setup_class(cls):
-        cls.mygrpc = Behavior('live.behavior')
+        cls.mygrpc = Behavior()
 
     def test_add_rank(self):
         r = self.mygrpc.add_rank(title=1,ruler_id=1)

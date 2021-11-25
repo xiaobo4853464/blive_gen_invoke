@@ -9,7 +9,7 @@ from src.quiz_card import Quiz_card
 class TestQuiz_card(object):
     @classmethod
     def setup_class(cls):
-        cls.mygrpc = Quiz_card('live.quizcard')
+        cls.mygrpc = Quiz_card()
 
     def test_add_card_by_subscribe(self):
         r = self.mygrpc.add_card_by_subscribe(uid=1,tid=1)

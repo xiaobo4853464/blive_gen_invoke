@@ -123,6 +123,14 @@ class TestXlottery(object):
         r = self.mygrpc.get_award_pool_info(room_id=1,act_id=1)
         print(r)
 
+    def test_get_box_info(self):
+        r = self.mygrpc.get_box_info()
+        print(r)
+
+    def test_get_box_round_info(self):
+        r = self.mygrpc.get_box_round_info()
+        print(r)
+
     def test_get_capsule_info(self):
         r = self.mygrpc.get_capsule_info(**from_=1)
         print(r)

@@ -524,6 +524,14 @@ class Xlottery(object):
     def get_user_info_list(self, roomid=None, uids=None):
         """### 获取中奖用户信息"""
 
+    @grpc_call(path="/live.xlottery.v1.Box/GetBoxInfo")
+    def get_box_info(self, room_id=None, uid=None, platform=None, aid=None):
+        """### 金宝箱重构"""
+
+    @grpc_call(path="/live.xlottery.v1.Box/GetBoxRoundInfo")
+    def get_box_round_info(self, room_id=None, uid=None, platform=None, aid=None, round_id=None):
+        """### 获取宝箱每一轮具体信息"""
+
     @grpc_call(path="/live.xlottery.v1.Guard/Start")
     def start(self, uid=None, ruid=None, roomid=None, privilege=None, playflowID=None, sub_level=None, msg_id=None):
         """### 开启抽奖"""

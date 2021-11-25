@@ -309,7 +309,8 @@
         ],
         "lottery-interface": [
             "/Users/boxiao/go-live/app/interface/lottery-interface/api/http/lottery.lottery.md",
-            "/Users/boxiao/go-live/app/interface/lottery-interface/api/http/popularity_red_pocket.popularityRedPocket.md"
+            "/Users/boxiao/go-live/app/interface/lottery-interface/api/http/popularity_red_pocket.popularityRedPocket.md",
+            "/Users/boxiao/go-live/app/interface/lottery-interface/api/http/gold_box.goldBox.md"
         ],
         "live-admin": [
             "/Users/boxiao/go-live/app/admin/live-admin/api/http/v1/upload.token.md",
