@@ -1,9 +1,15 @@
+"""
+Auto gen. Do not change.
+Any question please connect @好人索尔
+"""
 from tiny import grpc_call
 
+
 class Xroom(object):
-    def __init__(self,service_name):
-        self.service_name=service_name
-    
+
+    def __init__(self, service_name):
+        self.service_name = service_name
+
     @grpc_call(path="/live.xroom.v1.ShortIdMng/shortIdList")
     def short_id_list(self, status=None, short_id=None, short_id_range_start=None, short_id_range_end=None, page=None, pagesize=None):
         """###短号库存列表"""
@@ -43,3 +49,4 @@ class Xroom(object):
     @grpc_call(path="/live.xroom.v1.ShortIdMng/shortIdListExport")
     def short_id_list_export(self, status=None, short_id=None, short_id_range_start=None, short_id_range_end=None, page=None, pagesize=None):
         """###短位号库存页面导出接口"""
+

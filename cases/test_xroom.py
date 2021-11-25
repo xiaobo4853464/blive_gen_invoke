@@ -36,11 +36,11 @@ class TestXroom(object):
         print(r)
 
     def test_short_room_add(self):
-        r = self.mygrpc.short_room_add(short_id=1,roomid=1,valid_type=1)
+        r = self.mygrpc.short_room_add(short_id=1, roomid=1, valid_type=1)
         print(r)
 
     def test_short_room_back(self):
-        r = self.mygrpc.short_room_back(short_id=1,end_reason=1)
+        r = self.mygrpc.short_room_back(short_id=1, end_reason=1)
         print(r)
 
     def test_short_room_list(self):

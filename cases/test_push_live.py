@@ -12,6 +12,6 @@ class TestPush_live(object):
         cls.mygrpc = Push_live()
 
     def test_set_room_filter(self):
-        r = self.mygrpc.set_room_filter(room_id=1,start_time=1,end_time=1,source=1,source_id=1)
+        r = self.mygrpc.set_room_filter(room_id=1, start_time=1, end_time=1, source=1, source_id=1)
         print(r)
 

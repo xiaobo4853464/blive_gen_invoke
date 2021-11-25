@@ -19,19 +19,3 @@ class TestXrobot(object):
         r = self.mygrpc.get_wx_user_info(code=1)
         print(r)
 
-    def test_receive_message(self):
-        r = self.mygrpc.receive_message()
-        print(r)
-
-    def test_send_md_message(self):
-        r = self.mygrpc.send_md_message(robot_name=1)
-        print(r)
-
-    def test_send_text_message(self):
-        r = self.mygrpc.send_text_message(robot_name=1)
-        print(r)
-
-    def test_verify_u_r_l(self):
-        r = self.mygrpc.verify_u_r_l(msg_signature=1,timestamp=1,nonce=1,echostr=1)
-        print(r)
-

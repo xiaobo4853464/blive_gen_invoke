@@ -12,7 +12,7 @@ class TestQuiz_lottery(object):
         cls.mygrpc = Quiz_lottery()
 
     def test_award_add(self):
-        r = self.mygrpc.award_add(jackpot_id=1,award_type=1,award_name=1,pic=1,change=1,forwho=1)
+        r = self.mygrpc.award_add(jackpot_id=1, award_type=1, award_name=1, pic=1, change=1, forwho=1)
         print(r)
 
     def test_award_biz_i_d(self):

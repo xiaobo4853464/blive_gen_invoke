@@ -1,9 +1,15 @@
+"""
+Auto gen. Do not change.
+Any question please connect @好人索尔
+"""
 from tiny import grpc_call
 
+
 class Data_one_piece_task(object):
-    def __init__(self,service_name):
-        self.service_name=service_name
-    
+
+    def __init__(self, service_name):
+        self.service_name = service_name
+
     @grpc_call(path="/live.dataonepiecetask.Label/AddFeature")
     def add_feature(self, feature_id=None, entity_type=None, feature_name=None, feature_desc=None, spark_sql=None, is_roll_refresh=None, valid_date=None, redis_prefix=None, manager=None, front_conf=None, update_desc=None, bind_filter_id=None, data_source=None, guide_status=None):
         """### AddFeature 新增一个自定义标签"""
@@ -79,3 +85,4 @@ class Data_one_piece_task(object):
     @grpc_call(path="/live.dataonepiecetask.Label/TestDiagnosisCallback")
     def test_diagnosis_callback(self, featureId=None, paramNum=None, label=None, date=None):
         """### 无标题"""
+

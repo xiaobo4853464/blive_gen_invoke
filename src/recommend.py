@@ -1,9 +1,15 @@
+"""
+Auto gen. Do not change.
+Any question please connect @好人索尔
+"""
 from tiny import grpc_call
 
+
 class Recommend(object):
-    def __init__(self,service_name):
-        self.service_name=service_name
-    
+
+    def __init__(self, service_name):
+        self.service_name = service_name
+
     @grpc_call(path="/live.recommend.v1.Recommend/clear_recommend_cache")
     def clear_recommend_cache(self, uid=None, buvid=None):
         """### 清空推荐缓存，清空推荐过的集合"""
@@ -19,3 +25,4 @@ class Recommend(object):
     @grpc_call(path="/live.recommend.v1.Recommend/get_lr_feature_result")
     def get_lr_feature_result(self, uid=None):
         """### 获取房间特征向量接口(调试)"""
+

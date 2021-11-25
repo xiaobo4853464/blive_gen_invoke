@@ -1,36 +1,14 @@
+"""
+Auto gen. Do not change.
+Any question please connect @好人索尔
+"""
 from tiny import grpc_call
 
+
 class Abtest(object):
-    def __init__(self,service_name):
-        self.service_name=service_name
-    
-    @grpc_call(path="/live.abtest.jumpfrom/AddNewSource")
-    def add_new_source(self, source_one_title, source_two_title, prefix):
-        """### 新增来源"""
 
-    @grpc_call(path="/live.abtest.jumpfrom/GetJumpFromList")
-    def get_jump_from_list(self, page, page_size, source_one_title=None, source_two_title=None, jumpfrom_id=None, entry_from=None, order=None):
-        """### jumpfrom列表"""
-
-    @grpc_call(path="/live.abtest.jumpfrom/GetJumpFrom")
-    def get_jump_from(self, id):
-        """### jumpfrom info"""
-
-    @grpc_call(path="/live.abtest.jumpfrom/SetJumpFrom")
-    def set_jump_from(self, jumpfrom_id, entry_from, source_one_title, source_two_title, source_three_title, source_desc, report_type, id=None, tapd_url=None, img=None, aggregated_field=None):
-        """### add / edit"""
-
-    @grpc_call(path="/live.abtest.jumpfrom/GetMaxByPrefix")
-    def get_max_by_prefix(self, prefix=None):
-        """### 根据前缀获取最大值"""
-
-    @grpc_call(path="/live.abtest.jumpfrom/GetSearchResult")
-    def get_search_result(self, jumpfrom_id=None):
-        """### 搜索框联想查询"""
-
-    @grpc_call(path="/live.abtest.jumpfrom/GetJumpFromByKeys")
-    def get_jump_from_by_keys(self, keys=None):
-        """### 提供给PHP服务或者主站"""
+    def __init__(self, service_name):
+        self.service_name = service_name
 
     @grpc_call(path="/live.abtest.abtest/GetExpList")
     def get_exp_list(self, page=None, page_size=None, stat=None, exp_source=None, exp_key=None, exp_name=None, namespace=None):
@@ -71,3 +49,4 @@ class Abtest(object):
     @grpc_call(path="/live.abtest.abtest/GetSplitResultByParam")
     def get_split_result_by_param(self, uid, exp_key, buvid=None):
         """### 根据uid获取用户分流结果"""
+

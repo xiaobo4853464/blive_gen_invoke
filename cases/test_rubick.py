@@ -19,10 +19,6 @@ class TestRubick(object):
         r = self.mygrpc.list()
         print(r)
 
-    def test_login(self):
-        r = self.mygrpc.login()
-        print(r)
-
     def test_multi(self):
         r = self.mygrpc.multi()
         print(r)

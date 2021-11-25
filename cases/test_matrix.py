@@ -15,7 +15,3 @@ class TestMatrix(object):
         r = self.mygrpc.eval()
         print(r)
 
-    def test_send_message(self):
-        r = self.mygrpc.send_message()
-        print(r)
-

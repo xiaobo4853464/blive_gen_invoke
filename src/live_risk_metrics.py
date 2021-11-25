@@ -1,9 +1,15 @@
+"""
+Auto gen. Do not change.
+Any question please connect @好人索尔
+"""
 from tiny import grpc_call
 
+
 class Live_risk_metrics(object):
-    def __init__(self,service_name):
-        self.service_name=service_name
-    
+
+    def __init__(self, service_name):
+        self.service_name = service_name
+
     @grpc_call(path="/live.riskmetrics.v1.MetricService/GetCount")
     def get_count(self, ruleName=None, useCache=None, metricName=None, seconds=None, field=None):
         """### 无标题"""
@@ -19,3 +25,4 @@ class Live_risk_metrics(object):
     @grpc_call(path="/live.riskmetrics.v1.MetricService/GetString")
     def get_string(self, ruleName=None, useCache=None, metricName=None, field=None):
         """### 无标题"""
+

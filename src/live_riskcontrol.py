@@ -1,9 +1,15 @@
+"""
+Auto gen. Do not change.
+Any question please connect @好人索尔
+"""
 from tiny import grpc_call
 
+
 class Live_riskcontrol(object):
-    def __init__(self,service_name):
-        self.service_name=service_name
-    
+
+    def __init__(self, service_name):
+        self.service_name = service_name
+
     @grpc_call(path="/live.riskcontrol.v1.IsForbidden/GetIpForbidden")
     def get_ip_forbidden(self, uri=None, ip=None):
         """### 无标题"""
@@ -23,3 +29,4 @@ class Live_riskcontrol(object):
     @grpc_call(path="/live.riskcontrol.v1.IsForbidden/GetPopularityFeedbackList")
     def get_popularity_feedback_list(self, status=None, roomid=None, page_index=None, page_size=None):
         """### 无标题"""
+

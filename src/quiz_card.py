@@ -1,9 +1,15 @@
+"""
+Auto gen. Do not change.
+Any question please connect @好人索尔
+"""
 from tiny import grpc_call
 
+
 class Quiz_card(object):
-    def __init__(self,service_name):
-        self.service_name=service_name
-    
+
+    def __init__(self, service_name):
+        self.service_name = service_name
+
     @grpc_call(path="/live.quizcard.Card/CreateCard")
     def create_card(self, uid, code, buvid=None):
         """### 填邀请码获取复活卡"""
@@ -27,3 +33,4 @@ class Quiz_card(object):
     @grpc_call(path="/live.quizcard.Card/AddCardBySubscribe")
     def add_card_by_subscribe(self, uid, tid, buvid=None):
         """###  获取uid当前的邀请码数量"""
+

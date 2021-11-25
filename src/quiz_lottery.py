@@ -1,9 +1,15 @@
+"""
+Auto gen. Do not change.
+Any question please connect @好人索尔
+"""
 from tiny import grpc_call
 
+
 class Quiz_lottery(object):
-    def __init__(self,service_name):
-        self.service_name=service_name
-    
+
+    def __init__(self, service_name):
+        self.service_name = service_name
+
     @grpc_call(path="/live.quizlottery.Lottery/Start")
     def start(self, quizid=None, jackpot_id=None, roomid=None):
         """### 开始抽奖"""
@@ -43,3 +49,4 @@ class Quiz_lottery(object):
     @grpc_call(path="/live.quizlottery.Lottery/FackJoin")
     def fack_join(self, quizid=None, roomid=None):
         """### 无标题"""
+

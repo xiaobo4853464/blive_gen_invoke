@@ -11,24 +11,12 @@ class TestArtemis(object):
     def setup_class(cls):
         cls.mygrpc = Artemis()
 
-    def test_get_user_info(self):
-        r = self.mygrpc.get_user_info(uid=1)
-        print(r)
-
     def test_tx_bind_handler(self):
         r = self.mygrpc.tx_bind_handler(uid=1)
         print(r)
 
     def test_tx_h5_bind_handler(self):
-        r = self.mygrpc.tx_h5_bind_handler(gameType=1,uid=1)
-        print(r)
-
-    def test_tx_live_link_common_v1(self):
-        r = self.mygrpc.tx_live_link_common_v1()
-        print(r)
-
-    def test_tx_live_link_common_v2(self):
-        r = self.mygrpc.tx_live_link_common_v2()
+        r = self.mygrpc.tx_h5_bind_handler(gameType=1, uid=1)
         print(r)
 
     def test_tx_user_info_by_open_i_d(self):

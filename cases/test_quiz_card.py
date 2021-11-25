@@ -12,11 +12,11 @@ class TestQuiz_card(object):
         cls.mygrpc = Quiz_card()
 
     def test_add_card_by_subscribe(self):
-        r = self.mygrpc.add_card_by_subscribe(uid=1,tid=1)
+        r = self.mygrpc.add_card_by_subscribe(uid=1, tid=1)
         print(r)
 
     def test_create_card(self):
-        r = self.mygrpc.create_card(uid=1,code=1)
+        r = self.mygrpc.create_card(uid=1, code=1)
         print(r)
 
     def test_current_blance(self):
@@ -28,7 +28,7 @@ class TestQuiz_card(object):
         print(r)
 
     def test_set_card_num(self):
-        r = self.mygrpc.set_card_num(uids=1,num=1)
+        r = self.mygrpc.set_card_num(uids=1, num=1)
         print(r)
 
     def test_use_card(self):

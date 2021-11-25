@@ -1,9 +1,15 @@
+"""
+Auto gen. Do not change.
+Any question please connect @好人索尔
+"""
 from tiny import grpc_call
 
+
 class Topics(object):
-    def __init__(self,service_name):
-        self.service_name=service_name
-    
+
+    def __init__(self, service_name):
+        self.service_name = service_name
+
     @grpc_call(path="/live.topics.v1.topic/AddTopic")
     def add_topic(self, name, creator, cover=None, content=None, start_time=None, end_time=None, jump_content=None, jump_link=None, is_forever=None):
         """### AddTopic 新增话题"""
@@ -71,3 +77,4 @@ class Topics(object):
     @grpc_call(path="/live.topics.v1.topic/GetTopicByUidAndLiveKey")
     def get_topic_by_uid_and_live_key(self, uid, live_key):
         """### 通过uid和live_key获取有效话题id"""
+

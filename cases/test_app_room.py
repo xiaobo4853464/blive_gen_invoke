@@ -12,6 +12,6 @@ class TestApp_room(object):
         cls.mygrpc = App_room()
 
     def test_share_conf(self):
-        r = self.mygrpc.share_conf(room_id=1,platform=1)
+        r = self.mygrpc.share_conf(room_id=1, platform=1)
         print(r)
 

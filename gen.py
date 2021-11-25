@@ -51,15 +51,19 @@ def gen_all_mds_path(project_path, out_put_path):
         json.dump(d, f, ensure_ascii=False, indent=4)
 
 
-def generate(input_json_path, output_path=None, category="grpc"):
+def generate(input_json_path, category="grpc"):
     with open(input_json_path, "r") as f:
         c = json.load(f)
 
     for service in c[category]:
         service_name = service
-        part_content = []
+        file_name = service_name.split(".")[-1]
+
+        cls_name = file_name.capitalize().replace("-", "_")
         files = c[category][service]
+
         for file in files:
+            interface_dict = {"cls_name": cls_name}
             file_path = file
             with open(file_path, "r") as f:
                 content = f.read()
@@ -70,9 +74,6 @@ def generate(input_json_path, output_path=None, category="grpc"):
             for r in results:
                 lines = r.splitlines()
                 d = {"interface": lines[0], "desc": lines[1]}
-                # if d['interface'] == '/live.xuserex.v1.dmConfig/WearForOld':  # debug
-                #     print(1)
-                method = 'grpc_call'
                 for line in lines:
                     line = line.replace("||", "|")
                     if line.startswith("|") and ord('a') <= ord(line[1]) <= ord('z'):
@@ -94,7 +95,6 @@ def generate(input_json_path, output_path=None, category="grpc"):
                         k = ["param_name", "is_required", "type"]
                         dic = dict(zip(k, p))
                         d.setdefault("params", []).append(dic)
-                # print(d)
                 func_name = d['interface'].split('/')[-1]
 
                 func_name = get_lower_case_name(func_name)
@@ -117,31 +117,15 @@ def generate(input_json_path, output_path=None, category="grpc"):
 
                     func_params = sorted(func_params, key=lambda i: i.endswith("=None"))
                     func_params = sorted(func_params, key=lambda i: i.startswith("**"))
-                    code_session = f"""
-    @{method}(path="{d['interface']}")
-    def {func_name}(self, {", ".join(func_params)}):
-        \"\"\"{d['desc']}"\"\"\n"""
-                    # print(code_session)
-                    part_content.append(code_session)
+                    d['params_str'] = ", ".join(func_params)
+                    d['func_name'] = func_name
+                    interface_dict.setdefault("interfaces", []).append(d)
+                    _jinja_gen_invoke(interface_dict)
+        # print(interface_dict, cls_name)
+        # alldata.setdefault('data', []).append(interface_dict)
+        # print(1)
 
-            file_name = service_name.split(".")[-1]
-            cls_content = f"""from tiny import grpc_call
-
-class {file_name.capitalize().replace("-", "_")}(object):
-    def __init__(self,service_name):
-        self.service_name=service_name
-    {"".join(part_content)}"""
-            # print(cls_content)
-        if output_path is None:
-            venv_idx = get_proj_path().find("venv")
-            if venv_idx != -1:
-                output_path = get_proj_path()[:venv_idx] + 'api'
-            else:
-                output_path = os.getcwd() + '/api'
-
-        if os.path.exists(output_path):
-            with open(f"{output_path}/{file_name.replace('-', '_')}.py", "w") as f:
-                f.write(cls_content)
+    print("gen invoke template done")
 
 
 def pre(spec_dir='app'):
@@ -177,6 +161,7 @@ def gen_code(path):
         file_data = handle_cls(test_module)
         for d in file_data['data']:
             _jinja_gen(d)
+    print("gen test case done")
 
 
 def _jinja_gen(data):
@@ -193,16 +178,31 @@ def _jinja_gen(data):
     content = t.render(data=data)
     with open(f'cases/test_{hump2str(data["cls_name"])}.py', 'w') as f:
         f.write(content)
-    print(content)
+
+
+def _jinja_gen_invoke(data, output_dir="src"):
+    env = Environment(
+        loader=PackageLoader("data", "templates"),
+        keep_trailing_newline=True,
+        line_statement_prefix="##",
+        line_comment_prefix="###",
+        trim_blocks=True,
+        lstrip_blocks=True,
+    )
+    t = env.get_template("invoke")
+
+    content = t.render(data=data)
+    with open(f'{output_dir}/{hump2str(data["cls_name"])}.py', 'w') as f:
+        f.write(content)
 
 
 if __name__ == '__main__':
     project_path = pre(spec_dir='app')
     out_put_path = "data/services.json"
+
     gen_all_mds_path(project_path, out_put_path)
     time.sleep(3)
-    generate(out_put_path, 'src')
-
+    generate(out_put_path)
     time.sleep(3)
-    # gencode
+    # # gencode
     gen_code('src')

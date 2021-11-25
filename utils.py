@@ -35,12 +35,16 @@ def handle_cls(test_module):
                 for p in params.values():
                     if p.name == 'self':
                         continue
-                    if p.default:
-                        invoke_p.append(f'{p}=1')
-                        # print(name, sig_v)
+                    if str(p).startswith("**"):
+                        v = '**{"%s": 1}' % p.name[:-1]
+                        invoke_p.append(v)
+                    elif p.default:
+                        v = '%s=1' % p.name
+                        invoke_p.append(v)
+                    # print(name, sig_v)
                 # print(1)
 
-                call = f"self.mygrpc.{func_name}({','.join(invoke_p)})"
+                call = f"self.mygrpc.{func_name}({', '.join(invoke_p)})"
                 cls_d.setdefault('interfaces', []).append(dict(name=func_name, call=call))
 
             data['data'].append(cls_d)

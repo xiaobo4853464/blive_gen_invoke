@@ -1,32 +1,14 @@
+"""
+Auto gen. Do not change.
+Any question please connect @好人索尔
+"""
 from tiny import grpc_call
 
+
 class Trading(object):
-    def __init__(self,service_name):
-        self.service_name=service_name
-    
-    @grpc_call(path="/live.trading.Transaction/getMngTransactionList")
-    def get_mng_transaction_list(self, page=None, page_size=None):
-        """### 获取兑换配置列表(后台)"""
 
-    @grpc_call(path="/live.trading.Transaction/getMngTransactionDetail")
-    def get_mng_transaction_detail(self, id=None):
-        """### 获取兑换配置详情(后台)"""
-
-    @grpc_call(path="/live.trading.Transaction/updateMngTransactionStatus")
-    def update_mng_transaction_status(self, id=None, status=None):
-        """### 兑换配置上下线(后台)"""
-
-    @grpc_call(path="/live.trading.Transaction/getUserOrder")
-    def get_user_order(self, uid=None, transaction_id=None, page=None, page_size=None):
-        """### 根据uid,transaction_id查询订单(后台)"""
-
-    @grpc_call(path="/live.trading.Transaction/getTransactionList")
-    def get_transaction_list(self, ids=None, uid=None):
-        """### 获取兑换列表"""
-
-    @grpc_call(path="/live.trading.Transaction/userTransaction")
-    def user_transaction(self, id=None, num=None, uid=None, platform=None, source=None, context_id=None, mobi_app=None, device=None, build=None, context_type=None, extra_data=None):
-        """### 兑换"""
+    def __init__(self, service_name):
+        self.service_name = service_name
 
     @grpc_call(path="/live.trading.Score/GetScoreList")
     def get_score_list(self, page, page_size=None):
@@ -131,3 +113,4 @@ class Trading(object):
     @grpc_call(path="/live.trading.Score/UpdateUserStarLog")
     def update_user_star_log(self, uid, log_type, num=None, extra_data=None, tid=None, score_id=None, source=None):
         """###获取一段时间内的过期星光"""
+

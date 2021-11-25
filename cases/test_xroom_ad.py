@@ -15,10 +15,6 @@ class TestXroom_ad(object):
         r = self.mygrpc.check()
         print(r)
 
-    def test_check_v2(self):
-        r = self.mygrpc.check_v2(room_id=1,order_type=1)
-        print(r)
-
     def test_get_by_cri_ids(self):
         r = self.mygrpc.get_by_cri_ids()
         print(r)

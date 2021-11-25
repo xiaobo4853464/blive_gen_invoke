@@ -1,12 +1,14 @@
+"""
+Auto gen. Do not change.
+Any question please connect @好人索尔
+"""
 from tiny import grpc_call
 
+
 class Rubick(object):
-    def __init__(self,service_name):
-        self.service_name=service_name
-    
-    @grpc_call(path="/api/auth/login")
-    def login(self, username=None, password=None):
-        """### 登录接口"""
+
+    def __init__(self, service_name):
+        self.service_name = service_name
 
     @grpc_call(path="/api/strategy/delete")
     def delete(self, id=None):
@@ -27,3 +29,4 @@ class Rubick(object):
     @grpc_call(path="/api/strategy/multi")
     def multi(self, action=None, ids=None):
         """### 批量接口: 删除/上线/下线"""
+
